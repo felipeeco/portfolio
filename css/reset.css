@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+*::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;  
+    display: block;
+    font-family: inherit;
+    font-size: inherit; 
+    text-decoration: none;   
+}
+
+p a {
+    display: inline-block;
+}
+
+img, video, iframe, picture, figure {
+    display: block;
+    max-width: 100%;
+}
+
+form, input, select, textarea, button, label {
+    color: inherit;  
+    display: block;
+    font-family: inherit;
+    font-size: inherit; 
+}
