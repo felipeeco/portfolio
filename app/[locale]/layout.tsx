@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { useLocale } from "next-intl";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,11 +10,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: any;
 }) {
+  const locale = useLocale();
+
+  if (params.locale !== locale) {
+    notFound();
+  }
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body>{children}</body>
     </html>
   );
