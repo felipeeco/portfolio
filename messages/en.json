@@ -1,7 +1,9 @@
 {
   "Index": {
-    "title": "Hello world!!",
-    "subtitle": "How is it going?",
-    "alertMessage": "Something went wrong!"
+    "name": "Felipe Moreno",
+    "position": "Frontend Developer",
+    "keywords": "Front-End Developer, Frontend Developer, Front End Developer, Front-End Development, Frontend Development, Front End Development, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira",
+    "aboutMeTitle": "About Me",
+    "aboutMeDescription": "For the past three years, I have worked as a frontend developer." 
   }
 }

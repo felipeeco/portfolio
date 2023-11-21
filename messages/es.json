@@ -1,7 +1,9 @@
 {
   "Index": {
-    "title": "Holasss",
-    "subtitle": "que pasa",
-    "alertMessage": "ciudado"
+    "name": "Felipe Moreno",
+    "position": "Desarrollador Frontend",
+    "keywords": "Desarrollador Frontend, Desarrollador Front-end Desarrollador Front End, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira",
+    "aboutMeTitle": "Sobre Mi",
+    "aboutMeDescription": "En los últimos 3 años he trabajado como Desarrollador Frontend." 
   }
 }

@@ -1,4 +1,14 @@
+import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
+
+export async function generateMetadata() {
+  const t = await getTranslations({ namespace: "Index" });
+
+  return {
+    title: `${t("aboutMeTitle")} | ${t("name")} ${t("position")}`,
+    description: t("aboutMeDescription"),
+  };
+}
 
 export default function Home() {
   const t = useTranslations("Index");
