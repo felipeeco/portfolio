@@ -12,10 +12,10 @@ export const viewport = {
 };
 
 export async function generateMetadata() {
-  const t = await getTranslations({ namespace: "Index" });
+  const t = await getTranslations({ namespace: "App" });
 
   return {
-    keywords: t("keywords"),
+    keywords: t("Global.keywords"),
   };
 }
 
@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: any;
 }) {
-  const t = useTranslations("Index");
+  const t = useTranslations("App");
   const locale = useLocale();
 
   if (params.locale !== locale) {
@@ -51,8 +51,8 @@ export default function RootLayout({
                     height={180}
                   />
                 </div>
-                <h2 className="user-info__name">{t("name")}</h2>
-                <h1 className="user-info__job">{t("position")}</h1>
+                <h2 className="user-info__name">{t("Global.name")}</h2>
+                <h1 className="user-info__job">{t("Global.position")}</h1>
               </div>
 
               {/* Nav */}

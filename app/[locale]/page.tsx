@@ -2,108 +2,116 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 
 export async function generateMetadata() {
-  const t = await getTranslations({ namespace: "Index" });
+  const t = await getTranslations({ namespace: "App" });
 
   return {
-    title: `${t("aboutMeTitle")} | ${t("name")} ${t("position")}`,
-    description: t("aboutMeDescription"),
+    title: `${t("About.title")} | ${t("Global.name")} ${t("Global.position")}`,
+    description: t("About.description"),
   };
 }
 
 export default function Home() {
-  const t = useTranslations("Index");
+  const t = useTranslations("App");
 
   return (
     <article className="content__page content__about">
       <header className="about__header">
         <h2 className="about__title">
-          Sobre <span className="title__color">Mi</span>
+          {t("About.titleOne")}{" "}
+          <span className="title__color">{t("About.titleTwo")}</span>
         </h2>
       </header>
       <section className="about__personal-info">
         <article className="personal-info__bio">
-          <p className="personal-info__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            voluptatum minus, ratione, commodi animi omnis et unde quis sunt
-            laboriosam reiciendis saepe! Eius minima alias porro sint harum.
-            Consequatur, minima?
-          </p>
+          <p className="personal-info__description">{t("About.description")}</p>
         </article>
       </section>
       <section className="experience__knowledges">
         <header className="knowledges__subheader">
-          <h2 className="experience__subtitle">Technical Skilss</h2>
+          <h2 className="experience__subtitle">
+            {t("About.technicalSkillsTitle")}
+          </h2>
         </header>
         <section className="knowledges__container">
           <ul className="knowledges__list">
             <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">JavaScript</li>
+            <li className="knowledges__option">TypeScript</li>
+            <li className="knowledges__option">React</li>
+            <li className="knowledges__option">Angular</li>
+            <li className="knowledges__option">LitElement</li>
+            <li className="knowledges__option">Web Components</li>
+            <li className="knowledges__option">Node.js</li>
+            <li className="knowledges__option">Next.js</li>
+            <li className="knowledges__option">Redux</li>
+            <li className="knowledges__option">
+              Unit testing (Jest, React testing, Jasmine, angular testing)
+            </li>
+            <li className="knowledges__option">Git</li>
+            <li className="knowledges__option">SCRUM</li>
+            <li className="knowledges__option">BEM</li>
+            <li className="knowledges__option">CSS</li>
+            <li className="knowledges__option">HTML5</li>
+            <li className="knowledges__option">SASS</li>
+            <li className="knowledges__option">Material</li>
+            <li className="knowledges__option">Bootstrap</li>
+            <li className="knowledges__option">MongoDB</li>
+            <li className="knowledges__option">Mongoose</li>
+            <li className="knowledges__option">Express.js</li>
+            <li className="knowledges__option">Firebase</li>
+            <li className="knowledges__option">Figma</li>
+            <li className="knowledges__option">Jira</li>
           </ul>
         </section>
       </section>
       <section className="experience__container">
         <section className="experience__left">
           <header className="experience__subheader">
-            <h2 className="experience__subtitle">Experiencia</h2>
+            <h2 className="experience__subtitle">
+              {t("About.experienceTitle")}
+            </h2>
           </header>
           <div className="experience__timelines">
             <article className="timelines__timeline">
               <header className="timeline__header">
-                <h3 className="timeline__year">2010</h3>
-                <span className="timelinecompany">Indra</span>
+                <span className="timelinecompany">{t("Indra.title")}</span>
+                <h3 className="timeline__year">{t("Indra.endDate")}</h3>
+                <h3 className="timeline__year">{t("Indra.startDate")}</h3>
               </header>
 
               <div className="timeline__divider"></div>
 
               <div className="timeline__description">
-                <h3 className="timeline__title">Desarrollador Frontend</h3>
-                <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  odit repellendus non debitis architecto, at voluptatum magnam
-                  adipisci? Quia rerum omnis veniam eius culpa unde, error
-                  dolores vel obcaecati quod.
-                </p>
+                <h3 className="timeline__title">{t("Indra.position")}</h3>
+                <p className="timeline__text">{t("Indra.experience")}</p>
               </div>
             </article>
             <article className="timelines__timeline">
               <header className="timeline__header">
-                <h3 className="timeline__year">2010</h3>
-                <span className="timelinecompany">Indra</span>
+                <span className="timelinecompany">{t("Endava.title")}</span>
+                <h3 className="timeline__year">{t("Endava.endDate")}</h3>
+                <h3 className="timeline__year">{t("Endava.startDate")}</h3>
               </header>
 
               <div className="timeline__divider"></div>
 
               <div className="timeline__description">
-                <h3 className="timeline__title">Desarrollador Frontend</h3>
-                <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  odit repellendus non debitis architecto, at voluptatum magnam
-                  adipisci? Quia rerum omnis veniam eius culpa unde, error
-                  dolores vel obcaecati quod.
-                </p>
+                <h3 className="timeline__title">{t("Endava.position")}</h3>
+                <p className="timeline__text">{t("Endava.experience")}</p>
               </div>
             </article>
             <article className="timelines__timeline">
               <header className="timeline__header">
-                <h3 className="timeline__year">2010</h3>
-                <span className="timelinecompany">Indra</span>
+                <span className="timelinecompany">{t("Sophos.title")}</span>
+                <span className="timelinecompany">{t("Sophos.titleTwo")}</span>
+                <h3 className="timeline__year">{t("Sophos.endDate")}</h3>
+                <h3 className="timeline__year">{t("Sophos.startDate")}</h3>
               </header>
 
-              <div className="timeline__divider timeline__divider--last"></div>
+              <div className="timeline__divider"></div>
 
               <div className="timeline__description">
-                <h3 className="timeline__title">Desarrollador Frontend</h3>
-                <p className="timeline__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                  odit repellendus non debitis architecto, at voluptatum magnam
-                  adipisci? Quia rerum omnis veniam eius culpa unde, error
-                  dolores vel obcaecati quod.
-                </p>
+                <h3 className="timeline__title">{t("Sophos.position")}</h3>
+                <p className="timeline__text">{t("Sophos.experience")}</p>
               </div>
             </article>
           </div>

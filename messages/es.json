@@ -1,9 +1,39 @@
 {
-  "Index": {
-    "name": "Felipe Moreno",
-    "position": "Desarrollador Frontend",
-    "keywords": "Desarrollador Frontend, Desarrollador Front-end Desarrollador Front End, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira",
-    "aboutMeTitle": "Sobre Mi",
-    "aboutMeDescription": "En los últimos 3 años he trabajado como Desarrollador Frontend." 
+  "App": {
+    "Global": {
+      "name": "Felipe Moreno",
+      "position": "Desarrollador Frontend",
+      "keywords": "Desarrollador Frontend, Desarrollador Front-end Desarrollador Front End, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
+    },
+    "About": {
+      "title": "Sobre Mi",
+      "description": "En los últimos 3 años he trabajado como Desarrollador Frontend.",
+      "titleOne": "Sobre",
+      "titleTwo": "Mi",
+      "technicalSkillsTitle": "Habilidades técnicas",
+      "experienceTitle": "Experiencia" 
+    },
+    "Sophos": {
+      "title": "Sophos",
+      "titleTwo": "Solutions",
+      "startDate": "Abril 2021",
+      "endDate": "Abril 2022",
+      "position": "Desarrollador Frontend",
+      "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web especializada en la captación de usuarios.\n Resultado del objetivo: Permite captar nuevos clientes 24/7 con un menor costo de captación por cada cliente."
+    },
+    "Endava": {
+      "title": "Endava",
+      "startDate": "Mayo 2022",
+      "endDate": "Mayo 2023",
+      "position": "Desarrollador Frontend",
+      "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web de autogestión de clientes para la tarjeta de crédito Coign, empresa fintech de Estados Unidos.\n Resultado del objetivo: La aplicación de autogestión de usuarios ha logrado bajar significativamente los costos de gestión de usuarios, permitiendo que la empresa pueda invertir más dinero en marketing."
+    },
+    "Indra": {
+      "title": "Indra",
+      "startDate": "Junio 2023",
+      "endDate": "Presente",
+      "position": "Desarrollador Frontend",
+      "experience": "Actualmente me encuentro desarrollando componentes web y mobile para la plaforma del banco BBVA"
+    }
   }
 }
