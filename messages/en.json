@@ -11,29 +11,37 @@
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical skills",
-      "experienceTitle": "Experience"
-    },
-    "Sophos": {
-      "title": "Sophos",
-      "titleTwo": "Solutions",
-      "startDate": "April 2021",
-      "endDate": "April 2022",
-      "position": "Frontend Developer",
-      "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
-    },
-    "Endava": {
-      "title": "Endava",
-      "startDate": "May 2022",
-      "endDate": "May 2023",
-      "position": "Frontend Developer",
-      "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
-    },
-    "Indra": {
-      "title": "Indra",
-      "startDate": "June 2023",
-      "endDate": "Present",
-      "position": "Frontend Developer",
-      "experience": "Currently, I am developing web and mobile components for the BBVA bank platform."
+      "experienceTitle": "Experience",
+      "experience": [
+        {
+          "title": "Indra",
+          "startDate": "June 2023",
+          "endDate": "Present",
+          "position": "Frontend Developer",
+          "experience": "Currently, I am developing web and mobile components for the BBVA bank platform."
+        },
+        {
+          "title": "Endava",
+          "startDate": "May 2022",
+          "endDate": "May 2023",
+          "position": "Frontend Developer",
+          "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
+        },
+        {
+          "title": "Sophos Solutions",
+          "startDate": "April 2021",
+          "endDate": "April 2022",
+          "position": "Frontend Developer",
+          "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
+        },
+        {
+          "title": "Universidad del Rosario",
+          "startDate": "August 2017",
+          "endDate": "March 2022",
+          "position": "Web Developer",
+          "experience": "Achieved objective: Change the design and improve the performance of all university websites.\n Objective result: The branding was improved and as a result, more people are interested in filling out the enrollment forms."
+        }
+      ]
     }
   }
 }

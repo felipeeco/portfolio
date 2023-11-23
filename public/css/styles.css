@@ -419,6 +419,7 @@ body {
     font-weight: bold;
     display: block;
     line-height: 1.3;
+    width: 9.5rem;
 }
 
 .timeline__company {
@@ -448,7 +449,7 @@ body {
 .timeline__divider {
     background-color: var(--icon-color);
     bottom: -1.8rem;
-    left: 9rem;
+    left: 11rem;
     position: absolute;    
     top: 0;
     width: 1px;

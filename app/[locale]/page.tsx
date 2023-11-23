@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
+import localesJSON from "../../messages/en.json";
 
 export async function generateMetadata() {
   const t = await getTranslations({ namespace: "App" });
@@ -10,8 +11,27 @@ export async function generateMetadata() {
   };
 }
 
+interface Experience {
+  title: string;
+  startDate: string;
+  endDate: string;
+  position: string;
+  experience: string;
+}
+
 export default function Home() {
   const t = useTranslations("App");
+  const experiencesLength: number = localesJSON.App.About.experience.length;
+  let experiences: Array<Experience> = [];
+  for (let i = 0; i < experiencesLength; i++) {
+    experiences.push({
+      title: t(`About.experience.${i}.title`),
+      startDate: t(`About.experience.${i}.startDate`),
+      endDate: t(`About.experience.${i}.endDate`),
+      position: t(`About.experience.${i}.position`),
+      experience: t(`About.experience.${i}.experience`),
+    });
+  }
 
   return (
     <article className="content__page content__about">
@@ -71,49 +91,22 @@ export default function Home() {
             </h2>
           </header>
           <div className="experience__timelines">
-            <article className="timelines__timeline">
-              <header className="timeline__header">
-                <span className="timelinecompany">{t("Indra.title")}</span>
-                <h3 className="timeline__year">{t("Indra.endDate")}</h3>
-                <h3 className="timeline__year">{t("Indra.startDate")}</h3>
-              </header>
-
-              <div className="timeline__divider"></div>
-
-              <div className="timeline__description">
-                <h3 className="timeline__title">{t("Indra.position")}</h3>
-                <p className="timeline__text">{t("Indra.experience")}</p>
-              </div>
-            </article>
-            <article className="timelines__timeline">
-              <header className="timeline__header">
-                <span className="timelinecompany">{t("Endava.title")}</span>
-                <h3 className="timeline__year">{t("Endava.endDate")}</h3>
-                <h3 className="timeline__year">{t("Endava.startDate")}</h3>
-              </header>
-
-              <div className="timeline__divider"></div>
-
-              <div className="timeline__description">
-                <h3 className="timeline__title">{t("Endava.position")}</h3>
-                <p className="timeline__text">{t("Endava.experience")}</p>
-              </div>
-            </article>
-            <article className="timelines__timeline">
-              <header className="timeline__header">
-                <span className="timelinecompany">{t("Sophos.title")}</span>
-                <span className="timelinecompany">{t("Sophos.titleTwo")}</span>
-                <h3 className="timeline__year">{t("Sophos.endDate")}</h3>
-                <h3 className="timeline__year">{t("Sophos.startDate")}</h3>
-              </header>
-
-              <div className="timeline__divider"></div>
-
-              <div className="timeline__description">
-                <h3 className="timeline__title">{t("Sophos.position")}</h3>
-                <p className="timeline__text">{t("Sophos.experience")}</p>
-              </div>
-            </article>
+            {experiences.map((experience: Experience, index: number) => {
+              return (
+                <article className="timelines__timeline" key={index}>
+                  <header className="timeline__header">
+                    <span className="timelinecompany">{experience.title}</span>
+                    <h3 className="timeline__year">{experience.endDate}</h3>
+                    <h3 className="timeline__year">{experience.startDate}</h3>
+                  </header>
+                  <div className="timeline__divider"></div>
+                  <div className="timeline__description">
+                    <h3 className="timeline__title">{experience.position}</h3>
+                    <p className="timeline__text">{experience.experience}</p>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </section>
       </section>

@@ -11,29 +11,38 @@
       "titleOne": "Sobre",
       "titleTwo": "Mi",
       "technicalSkillsTitle": "Habilidades técnicas",
-      "experienceTitle": "Experiencia" 
-    },
-    "Sophos": {
-      "title": "Sophos",
-      "titleTwo": "Solutions",
-      "startDate": "Abril 2021",
-      "endDate": "Abril 2022",
-      "position": "Desarrollador Frontend",
-      "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web especializada en la captación de usuarios.\n Resultado del objetivo: Permite captar nuevos clientes 24/7 con un menor costo de captación por cada cliente."
-    },
-    "Endava": {
-      "title": "Endava",
-      "startDate": "Mayo 2022",
-      "endDate": "Mayo 2023",
-      "position": "Desarrollador Frontend",
-      "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web de autogestión de clientes para la tarjeta de crédito Coign, empresa fintech de Estados Unidos.\n Resultado del objetivo: La aplicación de autogestión de usuarios ha logrado bajar significativamente los costos de gestión de usuarios, permitiendo que la empresa pueda invertir más dinero en marketing."
-    },
-    "Indra": {
-      "title": "Indra",
-      "startDate": "Junio 2023",
-      "endDate": "Presente",
-      "position": "Desarrollador Frontend",
-      "experience": "Actualmente me encuentro desarrollando componentes web y mobile para la plaforma del banco BBVA"
+      "experienceTitle": "Experiencia",
+      "experience": [
+        {
+          "title": "Indra",
+          "startDate": "Junio 2023",
+          "endDate": "Presente",
+          "position": "Desarrollador Frontend",
+          "experience": "Actualmente me encuentro desarrollando componentes web y mobile para la plaforma del banco BBVA"
+        },
+        {
+          "title": "Endava",
+          "startDate": "Mayo 2022",
+          "endDate": "Mayo 2023",
+          "position": "Desarrollador Frontend",
+          "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web de autogestión de clientes para la tarjeta de crédito Coign, empresa fintech de Estados Unidos.\n Resultado del objetivo: La aplicación de autogestión de usuarios ha logrado bajar significativamente los costos de gestión de usuarios, permitiendo que la empresa pueda invertir más dinero en marketing."
+        },
+        {
+          "title": "Sophos",
+          "titleTwo": "Solutions",
+          "startDate": "Abril 2021",
+          "endDate": "Abril 2022",
+          "position": "Desarrollador Frontend",
+          "experience": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web especializada en la captación de usuarios.\n Resultado del objetivo: Permite captar nuevos clientes 24/7 con un menor costo de captación por cada cliente."
+        },
+        {
+          "title": "Universidad del Rosario",
+          "startDate": "Agosto 2017",
+          "endDate": "Marzo 2022",
+          "position": "Desarrollador web",
+          "experience": "Objetivo alcanzado: Cambiar el diseño y mejorar el performancede todos los sitios web de la universidad.\n Resultado del objetivo: Se mejoró el branding y en consecuencia hay más personas interesadas en llenar los formularios de inscripción."
+        }
+      ] 
     }
   }
 }
