@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 1160px) {
-    .certificate__item {
+    .certificate__display {
         width: 100%;
     }
     

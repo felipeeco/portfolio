@@ -443,7 +443,6 @@ body {
 
 .timeline__text {
     font-size: 1.4rem;
-    margin-bottom: 1rem;
 }
 
 .timeline__divider {
@@ -514,17 +513,29 @@ body {
     flex-direction: row;
 }
 
+.certificate__item--max-width {
+    flex-basis: 100%;
+}
+
+.certificate__link {
+    display: flex;
+    flex-basis: calc(50% - 1.5rem);
+    flex-direction: row;
+}
+
 .certificate__logo {
     align-items: center;
     background-color: var(--background-certificate-color);
     display: flex;
     justify-content: center;
-    padding: 2.5rem;
+    padding: 1.5rem;
     width: 15rem;
 }
 
 .certificate__image {
-    width: 100%
+    width: 100%;
+    min-width: 100px;
+    height: auto;
 }
 
 .certificate__content {

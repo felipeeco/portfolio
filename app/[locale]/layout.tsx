@@ -49,6 +49,7 @@ export default function RootLayout({
                     alt="profile photo"
                     width={180}
                     height={180}
+                    priority
                   />
                 </div>
                 <h2 className="user-info__name">{t("Global.name")}</h2>

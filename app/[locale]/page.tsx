@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import localesJSON from "../../messages/en.json";
+import Image from "next/image";
 
 export async function generateMetadata() {
   const t = await getTranslations({ namespace: "App" });
@@ -16,20 +17,41 @@ interface Experience {
   startDate: string;
   endDate: string;
   position: string;
-  experience: string;
+  achievedObjective: string;
+  objectiveResult: string;
+}
+
+interface Certificate {
+  title: string;
+  id: string;
+  link: string;
+  logo: string;
+  certificateDate: string;
 }
 
 export default function Home() {
   const t = useTranslations("App");
   const experiencesLength: number = localesJSON.App.About.experience.length;
+  const certificatesLength: number = localesJSON.App.About.certificates.length;
   let experiences: Array<Experience> = [];
+  let certificates: Array<Certificate> = [];
   for (let i = 0; i < experiencesLength; i++) {
     experiences.push({
       title: t(`About.experience.${i}.title`),
       startDate: t(`About.experience.${i}.startDate`),
       endDate: t(`About.experience.${i}.endDate`),
       position: t(`About.experience.${i}.position`),
-      experience: t(`About.experience.${i}.experience`),
+      achievedObjective: t(`About.experience.${i}.achievedObjective`),
+      objectiveResult: t(`About.experience.${i}.objectiveResult`),
+    });
+  }
+  for (let i = 0; i < certificatesLength; i++) {
+    certificates.push({
+      title: t(`About.certificates.${i}.title`),
+      id: t(`About.certificates.${i}.id`),
+      link: t(`About.certificates.${i}.link`),
+      logo: t(`About.certificates.${i}.logo`),
+      certificateDate: t(`About.certificates.${i}.certificateDate`),
     });
   }
 
@@ -102,7 +124,14 @@ export default function Home() {
                   <div className="timeline__divider"></div>
                   <div className="timeline__description">
                     <h3 className="timeline__title">{experience.position}</h3>
-                    <p className="timeline__text">{experience.experience}</p>
+                    <p className="timeline__text">
+                      {experience.achievedObjective}
+                    </p>
+                    {experience.objectiveResult && (
+                      <p className="timeline__text">
+                        {experience.objectiveResult}
+                      </p>
+                    )}
                   </div>
                 </article>
               );
@@ -115,48 +144,63 @@ export default function Home() {
           <h2 className="experience__subtitle">Certificados</h2>
         </header>
         <section className="certificates__container">
-          <article className="certificate__item">
-            <div className="certificate__logo">
-              <img
-                className="certificate__image"
-                src="/img/certificado-1.png"
-                alt="imagen"
-              />
-            </div>
-            <div className="certificate__content">
-              <h4 className="certificate__title">Node.js certificado</h4>
-              <span className="certificate__id">545345</span>
-              <span className="certificate__date">23 de agosto de 2023</span>
-            </div>
-          </article>
-          <article className="certificate__item">
-            <div className="certificate__logo">
-              <img
-                className="certificate__image"
-                src="/img/certificado-1.png"
-                alt="imagen"
-              />
-            </div>
-            <div className="certificate__content">
-              <h4 className="certificate__title">Node.js certificado</h4>
-              <span className="certificate__id">545345</span>
-              <span className="certificate__date">23 de agosto de 2023</span>
-            </div>
-          </article>
-          <article className="certificate__item">
-            <div className="certificate__logo">
-              <img
-                className="certificate__image"
-                src="/img/certificado-1.png"
-                alt="imagen"
-              />
-            </div>
-            <div className="certificate__content">
-              <h4 className="certificate__title">Node.js certificado</h4>
-              <span className="certificate__id">545345</span>
-              <span className="certificate__date">23 de agosto de 2023</span>
-            </div>
-          </article>
+          {certificates.map((certificate: Certificate, index: number) => {
+            if (certificate.link) {
+              return (
+                <a
+                  href={certificate.link}
+                  target="_blank"
+                  title={certificate.title}
+                  key={index}
+                  className="certificate__link"
+                >
+                  <article className="certificate__item certificate__item--max-width">
+                    <div className="certificate__logo">
+                      <Image
+                        className="certificate__image"
+                        src={certificate.logo}
+                        alt="imagen"
+                        layout="responsive"
+                        width={100}
+                        height={40}
+                      />
+                    </div>
+                    <div className="certificate__content">
+                      <h4 className="certificate__title">
+                        {certificate.title}
+                      </h4>
+                      <span className="certificate__id">{certificate.id}</span>
+                      <span className="certificate__date">
+                        {certificate.certificateDate}
+                      </span>
+                    </div>
+                  </article>
+                </a>
+              );
+            } else {
+              return (
+                <article className="certificate__item" key={index}>
+                  <div className="certificate__logo">
+                    <Image
+                      className="certificate__image"
+                      src={certificate.logo}
+                      alt="imagen"
+                      layout="responsive"
+                      width={100}
+                      height={40}
+                    />
+                  </div>
+                  <div className="certificate__content">
+                    <h4 className="certificate__title">{certificate.title}</h4>
+                    <span className="certificate__id">{certificate.id}</span>
+                    <span className="certificate__date">
+                      {certificate.certificateDate}
+                    </span>
+                  </div>
+                </article>
+              );
+            }
+          })}
         </section>
       </section>
     </article>

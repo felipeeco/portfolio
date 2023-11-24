@@ -7,7 +7,7 @@
     },
     "About": {
       "title": "About Me",
-      "description": "For the past three years, I have worked as a frontend developer.",
+      "description": "For the past three years, I have been working as a frontend developer.",
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical skills",
@@ -18,30 +18,106 @@
           "startDate": "June 2023",
           "endDate": "Present",
           "position": "Frontend Developer",
-          "experience": "Currently, I am developing web and mobile components for the BBVA bank platform."
+          "achievedObjective": "Currently, I am developing web and mobile components for the BBVA bank platform.",
+          "objectiveResult": ""
         },
         {
           "title": "Endava",
           "startDate": "May 2022",
           "endDate": "May 2023",
           "position": "Frontend Developer",
-          "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
+          "achievedObjective": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.",
+          "objectiveResult": "Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
         },
         {
           "title": "Sophos Solutions",
           "startDate": "April 2021",
           "endDate": "April 2022",
           "position": "Frontend Developer",
-          "experience": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.\n Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
+          "achievedObjective": "Achieved objective: Together with my team, we created a web application specialized in user acquisition.",
+          "objectiveResult": "Objective result: It allows you to acquire new customers 24/7 with a lower cost of acquisition per customer."
         },
         {
           "title": "Universidad del Rosario",
           "startDate": "August 2017",
           "endDate": "March 2022",
           "position": "Web Developer",
-          "experience": "Achieved objective: Change the design and improve the performance of all university websites.\n Objective result: The branding was improved and as a result, more people are interested in filling out the enrollment forms."
+          "achievedObjective": "Achieved objective: Change the design and improve the performance of all university websites.",
+          "objectiveResult": "Objective result: The branding was improved and as a result, more people are interested in filling out the enrollment forms."
         }
-      ]
+      ],
+      "certificates": [
+        {
+          "title": "Frontend Frameworks and Architectures Audio Course: Case Studies",
+          "id": "Credential ID cbc2e050-946b-447b-862a-0745139ddbbf",
+          "link": "https://platzi.com/p/felipeMoreno/curso/4623-arquitectura-frontend/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "November 2023"
+        },
+        {
+          "title": "Meditation Audio Course",
+          "id": "Credential ID 34bf33bf-0c9f-408e-9f36-626ad1587c7a",
+          "link": "https://platzi.com/p/felipeMoreno/curso/1885-meditacion/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "November 2023"
+        },
+        {
+          "title": "DOM Manipulation Course",
+          "id": "Credential ID b923a67c-9d2b-4346-abcd-999827fdee5c",
+          "link": "https://platzi.com/p/felipeMoreno/curso/2193-dom/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "September 2023"
+        },
+        {
+          "title": "Basic Web Components with JavaScript Course",
+          "id": "Credential ID bfcc5411-80b5-4791-b6fa-cadf97b91e47",
+          "link": "https://platzi.com/p/felipeMoreno/curso/2199-web-components-javascript/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "August 2023"
+        },
+        {
+          "title": "Basic JavaScript Course",
+          "id": "Credential ID ffc8c947-2018-4e81-8ea5-30dac304256c",
+          "link": "https://platzi.com/p/felipeMoreno/curso/1814-basico-javascript/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "July 2023"
+        },
+        {
+          "title": "ECMAScript Course: JavaScript History and Versions",
+          "id": "Credential ID daad837e-d46e-4081-ae46-60c5c9c62764",
+          "link": "https://platzi.com/p/felipeMoreno/curso/3504-ecmascript-6/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "July 2023"
+        },
+        {
+          "title": "Node.js Fundamentals Course",
+          "id": "Credential ID a2ba78ea-8aac-40e5-9a7c-17c989436557",
+          "link": "https://platzi.com/p/felipeMoreno/curso/1759-fundamentos-node/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "July 2023"
+        },
+        {
+          "title": "JavaScript Engine (V8) and Browser Course",
+          "id": "Credential ID 9eab9f99-6245-4eae-a92a-2f997d153ad1",
+          "link": "https://platzi.com/p/felipeMoreno/curso/1798-javascript-navegador/diploma/detalle/",
+          "logo": "/img/certificates/platzi-logo.png",
+          "certificateDate": "July 2023"
+        },
+        {
+          "title": "Microsoft Certified: Azure Fundamentals",
+          "id": "Credential ID 1020-0119",
+          "link": "https://drive.google.com/file/d/1Yeu2BtkJLRhzsWUSerebfJwIue0DTz4-/view",
+          "logo": "/img/certificates/microsoft-logo.png",
+          "certificateDate": "November 2021"
+        },
+        {
+          "title": "EF English Live Level 13 - Advanced Completion Test",
+          "id": "",
+          "link": "",
+          "logo": "/img/certificates/ef-logo.png",
+          "certificateDate": "November 2021"
+        }
+      ]      
     }
   }
 }
