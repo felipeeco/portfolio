@@ -146,7 +146,6 @@ export default function Home() {
         <section className="certificates__container">
           {certificates.map((certificate: Certificate, index: number) => {
             if (certificate.link) {
-              console.log(certificate.title);
               return (
                 <a
                   href={certificate.link}
@@ -161,7 +160,6 @@ export default function Home() {
                         className="certificate__image"
                         src={certificate.logo}
                         alt="imagen"
-                        layout="responsive"
                         width={100}
                         height={40}
                       />
@@ -186,7 +184,6 @@ export default function Home() {
                       className="certificate__image"
                       src={certificate.logo}
                       alt="imagen"
-                      layout="responsive"
                       width={100}
                       height={40}
                     />
