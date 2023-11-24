@@ -528,13 +528,13 @@ body {
     background-color: var(--background-certificate-color);
     display: flex;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 2.5rem;
     width: 15rem;
 }
 
 .certificate__image {
     width: 100%;
-    min-width: 100px;
+    min-width: 70px;
     height: auto;
 }
 

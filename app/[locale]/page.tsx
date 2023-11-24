@@ -146,6 +146,7 @@ export default function Home() {
         <section className="certificates__container">
           {certificates.map((certificate: Certificate, index: number) => {
             if (certificate.link) {
+              console.log(certificate.title);
               return (
                 <a
                   href={certificate.link}

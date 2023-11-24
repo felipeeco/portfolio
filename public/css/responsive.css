@@ -197,6 +197,10 @@
     .timeline__description {
         width: 69%;
     }
+
+    .certificate__logo {
+        width: 10rem;
+    }
 }
 
 
@@ -208,6 +212,16 @@
 
     .gallery__item {
         flex-basis: 50%;
+    }
+
+    .timeline__header {
+        min-width: 12rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .certificate__item {
+        flex-direction: column;
     }
 }
 
