@@ -145,6 +145,7 @@ export default function Home() {
         </header>
         <section className="certificates__container">
           {certificates.map((certificate: Certificate, index: number) => {
+            //if exist link create link for certificate
             if (certificate.link) {
               return (
                 <a
@@ -159,7 +160,7 @@ export default function Home() {
                       <Image
                         className="certificate__image"
                         src={certificate.logo}
-                        alt="imagen"
+                        alt={certificate.title}
                         width={100}
                         height={40}
                       />
@@ -176,28 +177,29 @@ export default function Home() {
                   </article>
                 </a>
               );
-            } else {
-              return (
-                <article className="certificate__item" key={index}>
-                  <div className="certificate__logo">
-                    <Image
-                      className="certificate__image"
-                      src={certificate.logo}
-                      alt="imagen"
-                      width={100}
-                      height={40}
-                    />
-                  </div>
-                  <div className="certificate__content">
-                    <h4 className="certificate__title">{certificate.title}</h4>
-                    <span className="certificate__id">{certificate.id}</span>
-                    <span className="certificate__date">
-                      {certificate.certificateDate}
-                    </span>
-                  </div>
-                </article>
-              );
             }
+
+            //return default value
+            return (
+              <article className="certificate__item" key={index}>
+                <div className="certificate__logo">
+                  <Image
+                    className="certificate__image"
+                    src={certificate.logo}
+                    alt={certificate.title}
+                    width={100}
+                    height={40}
+                  />
+                </div>
+                <div className="certificate__content">
+                  <h4 className="certificate__title">{certificate.title}</h4>
+                  <span className="certificate__id">{certificate.id}</span>
+                  <span className="certificate__date">
+                    {certificate.certificateDate}
+                  </span>
+                </div>
+              </article>
+            );
           })}
         </section>
       </section>

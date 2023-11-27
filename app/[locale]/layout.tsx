@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import { useLocale } from "next-intl";
 import Image from "next/image";
+import Menu from "../../components/menu";
 import "./globals.css";
 
 export const viewport = {
@@ -57,25 +58,7 @@ export default function RootLayout({
               </div>
 
               {/* Nav */}
-              <nav className="layout__menu">
-                <ul className="menu__list">
-                  <li className="menu__option">
-                    <a
-                      href="index.html"
-                      className="menu__link menu__icon--active"
-                    >
-                      <i className="fa-solid fa-house menu__icon"></i>
-                      <span className="menu__overlay">Home</span>
-                    </a>
-                  </li>
-                  <li className="menu__option">
-                    <a href="portfolio.html" className="menu__link">
-                      <i className="fa-solid fa-briefcase menu__icon"></i>
-                      <span className="menu__overlay">Portafolio</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              <Menu />
 
               {/* Social media links */}
               <div className="user-info__links">
