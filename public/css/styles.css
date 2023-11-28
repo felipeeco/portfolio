@@ -186,6 +186,12 @@ body {
     margin-top: 4rem;
     margin-bottom: 2rem;
     cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.user-info__link--underline {
+    text-decoration: underline;
 }
 
 .user-info__btn {
@@ -387,7 +393,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 1.4rem;
+    margin-bottom: 3.4rem;
 }
 
 .experience__subtitle {
@@ -529,7 +535,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 2.5rem;
-    width: 15rem;
+    width: 12rem;
 }
 
 .certificate__image {

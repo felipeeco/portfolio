@@ -77,6 +77,13 @@
           "certificateDate": "Agosto 2023"
         },
         {
+          "title": "Maquetación Web Avanzada, Flexbox, CSS, Grid Layout, BEM, Responsive",
+          "id": "",
+          "link": "",
+          "logo": "/img/certificates/udemy-logo.png",
+          "certificateDate": "Agosto 2023"
+        },
+        {
           "title": "Curso Básico de JavaScript",
           "id": "Credential ID ffc8c947-2018-4e81-8ea5-30dac304256c",
           "link": "https://platzi.com/p/felipeMoreno/curso/1814-basico-javascript/diploma/detalle/",
@@ -125,7 +132,8 @@
           "logo": "/img/certificates/ef-logo.png",
           "certificateDate": "Noviembre 2021"
         }
-      ]
+      ],
+      "titleCertificate" : "Certificados"    
     }
   }
 }

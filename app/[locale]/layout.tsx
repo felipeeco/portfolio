@@ -3,7 +3,8 @@ import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import { useLocale } from "next-intl";
 import Image from "next/image";
-import Menu from "../../components/menu";
+import { Menu } from "../../components/Menu";
+import { LanguagesMenu } from "../../components/LanguagesMenu";
 import "./globals.css";
 
 export const viewport = {
@@ -75,13 +76,7 @@ export default function RootLayout({
                   </li>
                 </ul>
               </div>
-
-              {/*  Buton */}
-              {/* <div className="user-info__buttons">
-                    <a href="#" className="user-info__btn">
-                        Descargar CV
-                    </a>
-                </div> */}
+              <LanguagesMenu />
             </section>
           </aside>
 

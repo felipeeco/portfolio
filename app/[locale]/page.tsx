@@ -141,7 +141,9 @@ export default function Home() {
       </section>
       <section className="experience__certificates">
         <header className="experience__subheader">
-          <h2 className="experience__subtitle">Certificados</h2>
+          <h2 className="experience__subtitle">
+            {t("About.titleCertificate")}
+          </h2>
         </header>
         <section className="certificates__container">
           {certificates.map((certificate: Certificate, index: number) => {

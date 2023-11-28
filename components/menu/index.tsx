@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 
-export default function Menu() {
+export function Menu() {
   const pathName = usePathname();
   const locale = useLocale();
   return (
