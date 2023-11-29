@@ -211,11 +211,22 @@
     }
 
     .gallery__item {
-        flex-basis: 50%;
+        flex-basis: 100%;
     }
 
     .timeline__header {
         min-width: 12rem;
+    }
+
+    .gallery__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery__title {
+        padding-top: 0;
     }
 }
 

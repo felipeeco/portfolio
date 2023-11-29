@@ -22,6 +22,14 @@
           "objectiveResult": ""
         },
         {
+          "title": "My own",
+          "startDate": "Marzo 2023",
+          "endDate": "Presente",
+          "position": "Desarrollador Web Freelance",
+          "achievedObjective": "Soy un desarrollador web freelance con más de 5 años de experiencia en el desarrollo de sitios web y aplicaciones web.",
+          "objectiveResult": "Soy un profesional dedicado y responsable que siempre se esfuerza por superar las expectativas de mis clientes. Estoy siempre dispuesto a aprender nuevas tecnologías y técnicas para brindar el mejor servicio posible."
+        },
+        {
           "title": "Endava",
           "startDate": "Mayo 2022",
           "endDate": "Mayo 2023",
@@ -134,6 +142,48 @@
         }
       ],
       "titleCertificate" : "Certificados"    
+    },
+    "Portfolio": {
+      "title": "Portafolio",
+      "description": "Mi pasión radica en dar vida a experiencias digitales cautivadoras y amigables para el usuario. Como desarrollador frontend, mi enfoque se centra en la creación de interfaces interactivas y receptivas que combinen habilidades técnicas con un diseño atractivo. Mi cartera refleja mi compromiso con la excelencia en el desarrollo web, destacando proyectos donde la creatividad se une a la funcionalidad para ofrecer experiencias web memorables. Desde la implementación de diseños responsivos hasta la optimización del rendimiento, mi objetivo es utilizar las últimas tecnologías y estándares para impulsar proyectos impactantes y envolventes que deleiten a los usuarios y resuelvan desafíos de manera efectiva.",
+      "items": [
+        {
+          "imageUrl": "/img/portfolio/bbva.png",
+          "link": "https://www.bbva.com.co/",
+          "category": "Desarrollo de software",
+          "company": "Bbva"
+        },
+        {
+          "imageUrl": "/img/portfolio/tuya.png",
+          "link": "https://www.tuya.com.co/paso-a-paso-simulador-tuya",
+          "category": "Desarrollo de software",
+          "company": "Tuya"
+        },
+        {
+          "imageUrl": "/img/portfolio/urosario.png",
+          "link": "https://urosario.edu.co/",
+          "category": "Desarrollo de software",
+          "company": "URosario"
+        },
+        {
+          "imageUrl": "/img/portfolio/coign.png",
+          "link": "https://www.coigncard.com/applytospendright/",
+          "category": "Desarrollo de software",
+          "company": "Coign"
+        },
+        {
+          "imageUrl": "/img/portfolio/maestria-uninorte.png",
+          "link": "https://univirtual.uninorte.edu.co/p/maestria-en-pedagogia-social",
+          "category": "Maquetación web",
+          "company": "Uninorte"
+        },
+        {
+          "imageUrl": "/img/portfolio/minsmajobb.png",
+          "link": "https://minsmajobb.no/",
+          "category": "Maquetación web",
+          "company": "Minsmajobb"
+        }
+      ]
     }
   }
 }
