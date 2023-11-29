@@ -3,7 +3,15 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export function Menu() {
+export function Menu({
+  locale,
+  aboutTitle,
+  portfolioTitle,
+}: {
+  locale: any;
+  aboutTitle: any;
+  portfolioTitle: any;
+}) {
   const pathName = usePathname();
   return (
     <>
@@ -13,20 +21,22 @@ export function Menu() {
             <Link href="/" className="menu__link">
               <i
                 className={`fa-solid fa-house menu__icon ${
-                  pathName === "/es" ? "menu__icon--active" : ""
+                  pathName === `/${locale}` ? "menu__icon--active" : ""
                 }`}
               ></i>
-              <span className="menu__overlay">Home</span>
+              <span className="menu__overlay">{aboutTitle}</span>
             </Link>
           </li>
           <li className="menu__option">
             <Link href="/portfolio" className="menu__link">
               <i
                 className={`fa-solid fa-briefcase menu__icon ${
-                  pathName === "/es/portfolio" ? "menu__icon--active" : ""
+                  pathName === `/${locale}/portfolio`
+                    ? "menu__icon--active"
+                    : ""
                 }`}
               ></i>
-              <span className="menu__overlay">Portafolio</span>
+              <span className="menu__overlay">{portfolioTitle}</span>
             </Link>
           </li>
         </ul>

@@ -59,7 +59,11 @@ export default function RootLayout({
               </div>
 
               {/* Nav */}
-              <Menu />
+              <Menu
+                locale={locale}
+                aboutTitle={t("About.title")}
+                portfolioTitle={t("Portfolio.title")}
+              />
 
               {/* Social media links */}
               <div className="user-info__links">
