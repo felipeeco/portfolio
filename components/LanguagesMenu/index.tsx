@@ -1,18 +1,23 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useLocale } from "next-intl";
+import { Link, usePathname } from "../../navigation";
 
-export function LanguagesMenu() {
+export function LanguagesMenu({ language }: { language: any }) {
   const pathName = usePathname();
-  const locale = useLocale();
   return (
     <>
       {
         <div className="user-info__buttons">
-          Idiomas <br />
-          <span className={``}>Español</span> |<span>English</span>
+          {language}
+          <div className="user-info__languages">
+            <Link locale="es" href={pathName}>
+              Español
+            </Link>{" "}
+            |
+            <Link locale="en" href={pathName}>
+              English
+            </Link>
+          </div>
         </div>
       }
     </>

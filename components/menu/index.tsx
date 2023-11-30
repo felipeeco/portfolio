@@ -1,14 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from "../../navigation";
 
 export function Menu({
-  locale,
   aboutTitle,
   portfolioTitle,
 }: {
-  locale: any;
   aboutTitle: any;
   portfolioTitle: any;
 }) {
@@ -21,7 +18,7 @@ export function Menu({
             <Link href="/" className="menu__link">
               <i
                 className={`fa-solid fa-house menu__icon ${
-                  pathName === `/${locale}` ? "menu__icon--active" : ""
+                  pathName === `/` ? "menu__icon--active" : ""
                 }`}
               ></i>
               <span className="menu__overlay">{aboutTitle}</span>
@@ -31,7 +28,7 @@ export function Menu({
             <Link href="/portfolio" className="menu__link">
               <i
                 className={`fa-solid fa-briefcase menu__icon ${
-                  pathName === `/${locale}/portfolio`
+                  pathName === `/portfolio` || pathName === `/portafolio`
                     ? "menu__icon--active"
                     : ""
                 }`}

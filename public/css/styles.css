@@ -188,6 +188,13 @@ body {
     cursor: pointer;
     position: absolute;
     bottom: 0;
+    font-weight: bold;
+}
+
+.user-info__languages {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 100;
 }
 
 .user-info__link--underline {

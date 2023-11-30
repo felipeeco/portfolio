@@ -60,7 +60,6 @@ export default function RootLayout({
 
               {/* Nav */}
               <Menu
-                locale={locale}
                 aboutTitle={t("About.title")}
                 portfolioTitle={t("Portfolio.title")}
               />
@@ -80,7 +79,7 @@ export default function RootLayout({
                   </li>
                 </ul>
               </div>
-              <LanguagesMenu />
+              <LanguagesMenu language={t("Global.languages")} />
             </section>
           </aside>
 
