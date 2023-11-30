@@ -1,7 +1,3 @@
-import { Headers } from "node-fetch";
-const myHeaders: Headers = new Headers();
-myHeaders.append("Content-Type", "application/json");
-
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
