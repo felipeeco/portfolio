@@ -186,8 +186,6 @@ body {
     margin-top: 4rem;
     margin-bottom: 2rem;
     cursor: pointer;
-    position: absolute;
-    bottom: 0;
     font-weight: bold;
 }
 

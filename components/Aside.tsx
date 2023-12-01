@@ -26,6 +26,9 @@ export default function Aside({
         className={`layout__aside ${
           isVisibleResponsiveMenu ? "layout__aside--visible" : ""
         }`}
+        onClick={() => {
+          setIsVisibleResponsiveMenu(!isVisibleResponsiveMenu);
+        }}
       >
         <section className="aside__user-info">
           {/* Info user */}
@@ -40,6 +43,8 @@ export default function Aside({
             <h2 className="user-info__name">{name}</h2>
             <h1 className="user-info__job">{position}</h1>
           </div>
+
+          <LanguagesMenu language={languages} />
 
           {/* Nav */}
           <Menu aboutTitle={aboutTitle} portfolioTitle={portfolioTitle} />
@@ -59,7 +64,6 @@ export default function Aside({
               </li>
             </ul>
           </div>
-          <LanguagesMenu language={languages} />
         </section>
       </aside>
 
