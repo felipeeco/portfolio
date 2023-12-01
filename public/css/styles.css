@@ -259,7 +259,7 @@ body {
     cursor: pointer;
 }
 
-.menu__icon--active {
+.menu__icon--active .menu__icon {
     color: var(--secondary-color); 
 }
 
