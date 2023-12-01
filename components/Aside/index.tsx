@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { Menu } from "../Menu/";
-import { LanguagesMenu } from "../LanguagesMenu";
+import { Menu } from "../Menu/index";
+import { LanguagesMenu } from "../LanguagesMenu/index";
 
 export function Aside({
   name,
