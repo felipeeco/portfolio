@@ -2,7 +2,7 @@
 
 import { Link, usePathname } from "../../navigation";
 
-export function Menu({
+export default function Menu({
   aboutTitle,
   portfolioTitle,
 }: {

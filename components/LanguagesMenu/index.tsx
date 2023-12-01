@@ -2,7 +2,7 @@
 
 import { Link, usePathname } from "../../navigation";
 
-export function LanguagesMenu({ language }: { language: any }) {
+export default function LanguagesMenu({ language }: { language: any }) {
   const pathName = usePathname();
   return (
     <>
