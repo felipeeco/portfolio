@@ -2,7 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import { notFound } from "next/navigation";
 import { useLocale } from "next-intl";
-import { Aside } from "../../components/Aside";
+import Aside from "../../components/Aside";
 import "./globals.css";
 
 export const viewport = {

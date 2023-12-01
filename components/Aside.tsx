@@ -1,10 +1,9 @@
 "use client";
-
+import Menu from "@/components/Menu";
+import LanguagesMenu from "@/components/LanguagesMenu";
 import React from "react";
-import Menu from "@/components/Menu/index";
-import LanguagesMenu from "@/components/LanguagesMenu/index";
 
-export function Aside({
+export default function Aside({
   name,
   position,
   aboutTitle,

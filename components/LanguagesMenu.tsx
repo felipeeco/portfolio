@@ -1,6 +1,4 @@
-"use client";
-
-import { Link, usePathname } from "../../navigation";
+import { Link, usePathname } from "../navigation";
 
 export default function LanguagesMenu({ language }: { language: any }) {
   const pathName = usePathname();

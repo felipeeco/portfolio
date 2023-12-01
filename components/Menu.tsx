@@ -1,6 +1,4 @@
-"use client";
-
-import { Link, usePathname } from "../../navigation";
+import { Link, usePathname } from "../navigation";
 
 export default function Menu({
   aboutTitle,
