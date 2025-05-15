@@ -8,7 +8,7 @@
     },
     "About": {
       "title": "Sobre Mi",
-      "description": "Tengo 7 años de experiencia trabajando con JavaScript, y durante los últimos 4 años me he centrado en el desarrollo front-end utilizando frameworks como Angular, React, Next.js y LitElement.",
+      "description": "4 años de experiencia en desarrollo front-end con Next.js, Angular, React y LitElement, creando interfaces escalables y optimizadas. Competente en metodologías ágiles (SCRUM), control de versiones con Git y prácticas de integración y despliegue continuo (CI/CD).",
       "titleOne": "Sobre",
       "titleTwo": "Mi",
       "technicalSkillsTitle": "Habilidades técnicas",
@@ -19,41 +19,29 @@
           "startDate": "Junio 2023",
           "endDate": "Presente",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Actualmente me encuentro desarrollando componentes web y mobile para la plaforma del banco BBVA.",
-          "objectiveResult": ""
+          "achievedObjective": "•Desarrollo de componentes web reutilizables con JavaScript moderno y principios de arquitectura escalable (CELLS), aplicando buenas prácticas compatibles con frameworks como Lit Element y Next.js •Certificado en CELLS y Desarrollo seguro."
         },
         {
-          "title": "My own",
-          "startDate": "Marzo 2023",
+          "title": "Goal Friends",
+          "startDate": "Enero 2023",
           "endDate": "Presente",
-          "position": "Desarrollador Web Freelance",
-          "achievedObjective": "Soy un desarrollador web freelance con más de 5 años de experiencia en el desarrollo de sitios web y aplicaciones web.",
-          "objectiveResult": "Soy un profesional dedicado y responsable que siempre se esfuerza por superar las expectativas de mis clientes. Estoy siempre dispuesto a aprender nuevas tecnologías y técnicas para brindar el mejor servicio posible."
+          "position": "Next.js Full Stack Developer",
+          "achievedObjective": "•Diseño y desarrollo continuo de un dashboard administrativo con Next.js (SSR/ISR), optimizando la experiencia de usuario y reduciendo el tiempo de carga. •Implementación de rutas API y lógica de negocio con Node.js, Prisma ORM y PostgreSQL, garantizando un CRUD escalable y mantenible. •Desarrollo de componentes reutilizables en React y Tailwind CSS, asegurando un diseño responsive y coherente en todas las secciones. •Integración de autenticación segura con NextAuth.js y JWT, gestionando sesiones y protegiendo rutas privadas."
         },
         {
           "title": "Endava",
-          "startDate": "Mayo 2022",
-          "endDate": "Mayo 2023",
+          "startDate": "Marzo 2022",
+          "endDate": "Marzo 2023",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web de autogestión de clientes para la tarjeta de crédito Coign, empresa fintech de Estados Unidos.",
-          "objectiveResult": "Resultado del objetivo: La aplicación de autogestión de usuarios ha logrado bajar significativamente los costos de gestión de usuarios, permitiendo que la empresa pueda invertir más dinero en marketing."
+          "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando React y JavaScript, mejorando la eficiencia operativa y optimizando la experiencia de usuario."
         },
         {
           "title": "Sophos",
           "titleTwo": "Solutions",
           "startDate": "Abril 2021",
-          "endDate": "Abril 2022",
-          "position": "Desarrollador Frontend",
-          "achievedObjective": "Objetivo alcanzado: Junto a mi equipo de trabajo creamos una aplicación web especializada en la captación de usuarios.",
-          "objectiveResult": "Resultado del objetivo: Permite captar nuevos clientes 24/7 con un menor costo de captación por cada cliente."
-        },
-        {
-          "title": "Universidad del Rosario",
-          "startDate": "Agosto 2017",
           "endDate": "Marzo 2022",
-          "position": "Desarrollador web",
-          "achievedObjective": "Objetivo alcanzado: Cambiar el diseño y mejorar el performancede todos los sitios web de la universidad.",
-          "objectiveResult": "Resultado del objetivo: Se mejoró el branding y en consecuencia hay más personas interesadas en llenar los formularios de inscripción."
+          "position": "Desarrollador Frontend",
+          "achievedObjective": "Implementación de soluciones con Angular y TypeScript, optimizando procesos internos."
         }
       ],
       "certificates": [

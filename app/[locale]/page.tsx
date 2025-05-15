@@ -18,7 +18,6 @@ interface Experience {
   endDate: string;
   position: string;
   achievedObjective: string;
-  objectiveResult: string;
 }
 
 interface Certificate {
@@ -41,8 +40,7 @@ export default function Home() {
       startDate: t(`About.experience.${i}.startDate`),
       endDate: t(`About.experience.${i}.endDate`),
       position: t(`About.experience.${i}.position`),
-      achievedObjective: t(`About.experience.${i}.achievedObjective`),
-      objectiveResult: t(`About.experience.${i}.objectiveResult`),
+      achievedObjective: t(`About.experience.${i}.achievedObjective`)
     });
   }
   for (let i = 0; i < certificatesLength; i++) {
@@ -78,30 +76,9 @@ export default function Home() {
           <ul className="knowledges__list">
             <li className="knowledges__option">JavaScript</li>
             <li className="knowledges__option">TypeScript</li>
-            <li className="knowledges__option">React</li>
-            <li className="knowledges__option">Angular</li>
-            <li className="knowledges__option">LitElement</li>
-            <li className="knowledges__option">Web Components</li>
-            <li className="knowledges__option">Node.js</li>
             <li className="knowledges__option">Next.js</li>
-            <li className="knowledges__option">Redux</li>
-            <li className="knowledges__option">
-              Unit testing (Jest, React testing, Jasmine, angular testing)
-            </li>
-            <li className="knowledges__option">Git</li>
-            <li className="knowledges__option">SCRUM</li>
-            <li className="knowledges__option">BEM</li>
-            <li className="knowledges__option">CSS</li>
-            <li className="knowledges__option">HTML5</li>
-            <li className="knowledges__option">SASS</li>
-            <li className="knowledges__option">Material</li>
-            <li className="knowledges__option">Bootstrap</li>
-            <li className="knowledges__option">MongoDB</li>
-            <li className="knowledges__option">Mongoose</li>
-            <li className="knowledges__option">Express.js</li>
-            <li className="knowledges__option">Firebase</li>
-            <li className="knowledges__option">Figma</li>
-            <li className="knowledges__option">Jira</li>
+            <li className="knowledges__option">Angular</li>
+            <li className="knowledges__option">LitElement - CELLS</li>
           </ul>
         </section>
       </section>
@@ -127,11 +104,6 @@ export default function Home() {
                     <p className="timeline__text">
                       {experience.achievedObjective}
                     </p>
-                    {experience.objectiveResult && (
-                      <p className="timeline__text">
-                        {experience.objectiveResult}
-                      </p>
-                    )}
                   </div>
                 </article>
               );
@@ -172,9 +144,6 @@ export default function Home() {
                         {certificate.title}
                       </h4>
                       <span className="certificate__id">{certificate.id}</span>
-                      <span className="certificate__date">
-                        {certificate.certificateDate}
-                      </span>
                     </div>
                   </article>
                 </a>
@@ -196,9 +165,6 @@ export default function Home() {
                 <div className="certificate__content">
                   <h4 className="certificate__title">{certificate.title}</h4>
                   <span className="certificate__id">{certificate.id}</span>
-                  <span className="certificate__date">
-                    {certificate.certificateDate}
-                  </span>
                 </div>
               </article>
             );

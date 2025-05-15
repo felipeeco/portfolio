@@ -8,7 +8,7 @@
     },
     "About": {
       "title": "About Me",
-      "description": "I have 7 years of experience working with JavaScript, and for the last 4 years, I have focused on front-end development using frameworks such as Angular, React, Next.js, and LitElement.",
+      "description": "4 years of front-end development experience with Next.js, Angular, React, and LitElement, building scalable and optimized interfaces. Skilled in agile methodologies (SCRUM), version control with Git, and CI/CD practices.",
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical skills",
@@ -19,40 +19,28 @@
           "startDate": "June 2023",
           "endDate": "Present",
           "position": "Frontend Developer",
-          "achievedObjective": "Currently, I am developing web and mobile components for the BBVA bank platform.",
-          "objectiveResult": ""
+          "achievedObjective": "Currently, I am developing web and mobile components for the BBVA bank platform."
         },
         {
-          "title": "My own",
-          "startDate": "March 2023",
+          "title": "Goal Friends",
+          "startDate": "January 2023",
           "endDate": "Present",
-          "position": "Freelancer Web Developer",
-          "achievedObjective": "I am a freelance web developer with over 5 years of experience in developing websites and web applications.",
-          "objectiveResult": "I am a dedicated and responsible professional who always strives to exceed the expectations of my clients. I am always willing to learn new technologies and techniques to provide the best possible service."
+          "position": "Freelancer Next.js Full Stack Developer",
+          "achievedObjective": "• Design and continuous development of an administrative dashboard with Next.js (SSR/ISR), optimizing the user experience and reducing loading time. \n •Implemented API routes and business logic using Node.js, Prisma ORM, and PostgreSQL, ensuring scalable and maintainable CRUD. \n • Development of reusable components in React and Tailwind CSS, ensuring a responsive and coherent design in all sections. \n • Secure authentication integration with NextAuth.js and JWT, managing sessions and protecting private routes."
         },
         {
           "title": "Endava",
-          "startDate": "May 2022",
-          "endDate": "May 2023",
+          "startDate": "March 2022",
+          "endDate": "March 2023",
           "position": "Frontend Developer",
-          "achievedObjective": "Achieved objective: Together with my team, we created a web application for customer self-management for the Coign credit card, a fintech company in the United States.",
-          "objectiveResult": "Objective result: The customer self-management application has managed to significantly reduce customer management costs, allowing the company to invest more money in marketing."
+          "achievedObjective": "I collaborated on the development of a customer management platform for CoignCard using React and JavaScript, improving operational efficiency and optimizing the user experience."
         },
         {
           "title": "Sophos Solutions",
           "startDate": "April 2021",
-          "endDate": "April 2022",
-          "position": "Frontend Developer",
-          "achievedObjective": "Achieved objective: Together with my team, we created a web application specialized in user acquisition.",
-          "objectiveResult": "Objective result: It allows you to acquire new customers 24/7 with a lower cost of acquisition per customer."
-        },
-        {
-          "title": "Universidad del Rosario",
-          "startDate": "August 2017",
           "endDate": "March 2022",
-          "position": "Web Developer",
-          "achievedObjective": "Achieved objective: Change the design and improve the performance of all university websites.",
-          "objectiveResult": "Objective result: The branding was improved and as a result, more people are interested in filling out the enrollment forms."
+          "position": "Frontend Developer",
+          "achievedObjective": "Implementation of solutions with Angular and TypeScript, optimizing internal processes."
         }
       ],
       "certificates": [
