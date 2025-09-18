@@ -4,7 +4,11 @@ export const locales = ['es', 'en'] as const;
 export const localePrefix = 'as-needed' as const;
 
 export const pathnames = {
-  '/': '/'
+  '/': '/',
+  '/portfolio': {
+    en: '/portfolio',
+    es: '/portafolio'
+  }
 } as const;
 
 const routing = {
