@@ -46,9 +46,6 @@ export default function Aside({
 
           <LanguagesMenu language={languages} />
 
-          {/* Nav */}
-          <Menu aboutTitle={aboutTitle} portfolioTitle={portfolioTitle} />
-
           {/* Social media links */}
           <div className="user-info__links">
             <ul className="links__social">

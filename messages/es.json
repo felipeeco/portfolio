@@ -8,7 +8,7 @@
     },
     "About": {
       "title": "Sobre Mi",
-      "description": "4 años de experiencia en desarrollo front-end con Next.js, Angular, React y LitElement, creando interfaces escalables y optimizadas. Competente en metodologías ágiles (SCRUM), control de versiones con Git y prácticas de integración y despliegue continuo (CI/CD).",
+      "description": "Desarrollador Frontend con 4 años de experiencia profesional en el sector bancario y corporativo, especializado en la creación de aplicaciones web escalables y seguras con Next.js, Angular, React, LitElement y CELLS. Hábil en metodologías ágiles (SCRUM), control de versiones con Git y prácticas de integración/implementación continua (CI/CD).",
       "titleOne": "Sobre",
       "titleTwo": "Mi",
       "technicalSkillsTitle": "Habilidades técnicas",
@@ -19,21 +19,14 @@
           "startDate": "Junio 2023",
           "endDate": "Presente",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "•Desarrollo de componentes web reutilizables con JavaScript moderno y principios de arquitectura escalable (CELLS), aplicando buenas prácticas compatibles con frameworks como Lit Element y Next.js •Certificado en CELLS y Desarrollo seguro."
-        },
-        {
-          "title": "Goal Friends",
-          "startDate": "Enero 2023",
-          "endDate": "Presente",
-          "position": "Next.js Full Stack Developer",
-          "achievedObjective": "•Diseño y desarrollo continuo de un dashboard administrativo con Next.js (SSR/ISR), optimizando la experiencia de usuario y reduciendo el tiempo de carga. •Implementación de rutas API y lógica de negocio con Node.js, Prisma ORM y PostgreSQL, garantizando un CRUD escalable y mantenible. •Desarrollo de componentes reutilizables en React y Tailwind CSS, asegurando un diseño responsive y coherente en todas las secciones. •Integración de autenticación segura con NextAuth.js y JWT, gestionando sesiones y protegiendo rutas privadas."
+          "achievedObjective": "Desarrollo de componentes web enfocados en mejorar la autogestión del cliente.\nImplementación de pruebas unitarias y E2E con frameworks como Chai, Cucumber, Jasmine y Jest.\nAutomatización de flujos de integración y despliegue con Jenkins, Docker, GitHub Enterprise aplicando metodologías ágiles (SCRUM, Gitflow).\nExperiencia certificada en CELLS y Desarrollo Seguro, aplicando buenas prácticas de seguridad desde el diseño hasta la puesta en producción."
         },
         {
           "title": "Endava",
           "startDate": "Marzo 2022",
           "endDate": "Marzo 2023",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando React y JavaScript, mejorando la eficiencia operativa y optimizando la experiencia de usuario."
+          "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando JavaScript, React, Redux y React Router.\nMejoré la experiencia de usuario y la eficiencia operativa."
         },
         {
           "title": "Sophos",
@@ -41,9 +34,10 @@
           "startDate": "Abril 2021",
           "endDate": "Marzo 2022",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Implementación de soluciones con Angular y TypeScript, optimizando procesos internos."
+          "achievedObjective": "Con mi equipo desarrollamos una aplicación web enfocada en otorgar cupo de crédito de forma automática para la empresa Tuya S.A.\nEl frontend fue construido con TypeScript, Angular, HTML5 y CSS3."
         }
       ],
+
       "certificates": [
         {
           "title": "Audiocurso de Frameworks y Arquitecturas Frontend: Casos de Estudio",
@@ -130,7 +124,7 @@
           "certificateDate": "Noviembre 2021"
         }
       ],
-      "titleCertificate" : "Certificados"    
+      "titleCertificate": "Certificados"
     },
     "Portfolio": {
       "title": "Portafolio",

@@ -446,6 +446,20 @@ body {
     padding-right: 1.5rem;
 }
 
+.timeline__description ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.timeline__description li {
+  display: list-item;
+}
+
+.timeline__description ul { display: block; }
+.timeline__description li { display: list-item; }
+
 .timeline__title {
     font-size: 1.6rem;
     margin-bottom: 0.3rem;
@@ -454,6 +468,7 @@ body {
 
 .timeline__text {
     font-size: 1.4rem;
+    white-space: pre-line;
 }
 
 .timeline__divider {
@@ -618,4 +633,88 @@ body {
 
 .gallery__item:hover .gallery__icon{
     opacity: 1;
+}
+
+
+/* ===== KNOWLEDGES SECTION ===== */
+.knowledges__container {
+  /* Background and container styling */
+  background: var(--main-color);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1.6rem;
+  box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+}
+
+/* Optional: subheader if present */
+.knowledges__subheader {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin: 0 0 1.2rem;
+  color: var(--title-color);
+}
+
+/* Knowledge list layout */
+.knowledges__container > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem 2rem;
+}
+
+/* Responsive: two columns on medium+ screens */
+@media (min-width: 640px) {
+  .knowledges__container > ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Knowledge item */
+.knowledges__container > ul > li {
+  position: relative;
+  padding: 1rem 1.4rem 1rem 2.4rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 1rem;
+  background: var(--transparent-color);
+}
+
+/* Decorative bullet/accent */
+.knowledges__container > ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 1.45rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: var(--secondary-color);
+  box-shadow: 0 0 0 0.35rem rgba(4, 180, 224, 0.12);
+}
+
+/* Label (Frontend:, Backend:, etc.) */
+.knowledges__container > ul > li > strong {
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin-right: 0.4rem;
+  white-space: nowrap;
+}
+
+/* Hover effect */
+.knowledges__container > ul > li:hover {
+  background: rgba(4, 180, 224, 0.04);
+  border-color: rgba(4, 180, 224, 0.18);
+}
+
+/* Smooth transitions */
+@media (prefers-reduced-motion: no-preference) {
+  .knowledges__container > ul > li {
+    transition: background 160ms ease,
+                border-color 160ms ease,
+                box-shadow 160ms ease;
+  }
 }

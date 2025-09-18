@@ -8,7 +8,7 @@
     },
     "About": {
       "title": "About Me",
-      "description": "4 years of front-end development experience with Next.js, Angular, React, and LitElement, building scalable and optimized interfaces. Skilled in agile methodologies (SCRUM), version control with Git, and CI/CD practices.",
+      "description": "Frontend Developer with 4 years of professional experience in the banking and corporate sectors, specialized in building scalable and secure web applications using Next.js, Angular, React, LitElement and CELLS. Skilled in agile methodologies (SCRUM), version control with Git, and continuous integration/deployment practices (CI/CD).",
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical skills",
@@ -19,30 +19,24 @@
           "startDate": "June 2023",
           "endDate": "Present",
           "position": "Frontend Developer",
-          "achievedObjective": "Currently, I am developing web and mobile components for the BBVA bank platform."
-        },
-        {
-          "title": "Goal Friends",
-          "startDate": "January 2023",
-          "endDate": "Present",
-          "position": "Freelancer Next.js Full Stack Developer",
-          "achievedObjective": "• Design and continuous development of an administrative dashboard with Next.js (SSR/ISR), optimizing the user experience and reducing loading time. \n •Implemented API routes and business logic using Node.js, Prisma ORM, and PostgreSQL, ensuring scalable and maintainable CRUD. \n • Development of reusable components in React and Tailwind CSS, ensuring a responsive and coherent design in all sections. \n • Secure authentication integration with NextAuth.js and JWT, managing sessions and protecting private routes."
+          "achievedObjective": "Development of web components focused on improving customer self-service.\nImplementation of unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest.\nAutomation of integration and deployment flows with Jenkins, Docker, GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow).\nCELLS and Secure Development certified, applying best practices from design to production."
         },
         {
           "title": "Endava",
           "startDate": "March 2022",
           "endDate": "March 2023",
           "position": "Frontend Developer",
-          "achievedObjective": "I collaborated on the development of a customer management platform for CoignCard using React and JavaScript, improving operational efficiency and optimizing the user experience."
+          "achievedObjective": "Collaborated on the development of a customer management platform for CoignCard, using JavaScript, React, Redux, React Router, improving operational efficiency and optimizing user experience."
         },
         {
           "title": "Sophos Solutions",
           "startDate": "April 2021",
           "endDate": "March 2022",
           "position": "Frontend Developer",
-          "achievedObjective": "Implementation of solutions with Angular and TypeScript, optimizing internal processes."
+          "achievedObjective": "Worked with the team to develop a web application for Tuya S.A., enabling automatic credit approvals. The frontend was built with TypeScript, Angular, HTML5 and CSS3."
         }
       ],
+
       "certificates": [
         {
           "title": "Frontend Frameworks and Architectures Audio Course: Case Studies",
@@ -129,7 +123,7 @@
           "certificateDate": "November 2021"
         }
       ],
-      "titleCertificate": "Certificates"      
+      "titleCertificate": "Certificates"
     },
     "Portfolio": {
       "title": "Portfolio",

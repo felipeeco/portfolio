@@ -31,25 +31,14 @@ interface Certificate {
 export default function Home() {
   const t = useTranslations("App");
   const experiencesLength: number = localesJSON.App.About.experience.length;
-  const certificatesLength: number = localesJSON.App.About.certificates.length;
   let experiences: Array<Experience> = [];
-  let certificates: Array<Certificate> = [];
   for (let i = 0; i < experiencesLength; i++) {
     experiences.push({
       title: t(`About.experience.${i}.title`),
       startDate: t(`About.experience.${i}.startDate`),
       endDate: t(`About.experience.${i}.endDate`),
       position: t(`About.experience.${i}.position`),
-      achievedObjective: t(`About.experience.${i}.achievedObjective`)
-    });
-  }
-  for (let i = 0; i < certificatesLength; i++) {
-    certificates.push({
-      title: t(`About.certificates.${i}.title`),
-      id: t(`About.certificates.${i}.id`),
-      link: t(`About.certificates.${i}.link`),
-      logo: t(`About.certificates.${i}.logo`),
-      certificateDate: t(`About.certificates.${i}.certificateDate`),
+      achievedObjective: t(`About.experience.${i}.achievedObjective`),
     });
   }
 
@@ -73,12 +62,25 @@ export default function Home() {
           </h2>
         </header>
         <section className="knowledges__container">
+          <h3 className="knowledges__subheader">Technical Skills</h3>
           <ul className="knowledges__list">
-            <li className="knowledges__option">JavaScript</li>
-            <li className="knowledges__option">TypeScript</li>
-            <li className="knowledges__option">Next.js</li>
-            <li className="knowledges__option">Angular</li>
-            <li className="knowledges__option">LitElement - CELLS</li>
+            <li className="knowledges__item">
+              <strong className="knowledges__label">Frontend:</strong>
+              HTML5, CSS3, JavaScript, TypeScript, Next.js, Angular, React,
+              LitElement, CELLS
+            </li>
+            <li className="knowledges__item">
+              <strong className="knowledges__label">Backend:</strong>
+              Node.js, Prisma ORM, PostgreSQL, API REST
+            </li>
+            <li className="knowledges__item">
+              <strong className="knowledges__label">Testing:</strong>
+              Jest, Jasmine, Chai, Cucumber
+            </li>
+            <li className="knowledges__item">
+              <strong className="knowledges__label">CI/CD &amp; Tools:</strong>
+              Jenkins, Docker, GitHub, Gitflow
+            </li>
           </ul>
         </section>
       </section>
@@ -101,74 +103,16 @@ export default function Home() {
                   <div className="timeline__divider"></div>
                   <div className="timeline__description">
                     <h3 className="timeline__title">{experience.position}</h3>
-                    <p className="timeline__text">
-                      {experience.achievedObjective}
-                    </p>
+                    <ul>
+                      {experience.achievedObjective.split("\n").map((line, index) => (
+                        <li key={index}>{line}</li>
+                      ))}
+                    </ul>
                   </div>
                 </article>
               );
             })}
           </div>
-        </section>
-      </section>
-      <section className="experience__certificates">
-        <header className="experience__subheader">
-          <h2 className="experience__subtitle">
-            {t("About.titleCertificate")}
-          </h2>
-        </header>
-        <section className="certificates__container">
-          {certificates.map((certificate: Certificate, index: number) => {
-            //if exist link create link for certificate
-            if (certificate.link) {
-              return (
-                <a
-                  href={certificate.link}
-                  target="_blank"
-                  title={certificate.title}
-                  key={index}
-                  className="certificate__link"
-                >
-                  <article className="certificate__item certificate__item--max-width">
-                    <div className="certificate__logo">
-                      <Image
-                        className="certificate__image"
-                        src={certificate.logo}
-                        alt={certificate.title}
-                        width={100}
-                        height={40}
-                      />
-                    </div>
-                    <div className="certificate__content">
-                      <h4 className="certificate__title">
-                        {certificate.title}
-                      </h4>
-                      <span className="certificate__id">{certificate.id}</span>
-                    </div>
-                  </article>
-                </a>
-              );
-            }
-
-            //return default value
-            return (
-              <article className="certificate__item" key={index}>
-                <div className="certificate__logo">
-                  <Image
-                    className="certificate__image"
-                    src={certificate.logo}
-                    alt={certificate.title}
-                    width={100}
-                    height={40}
-                  />
-                </div>
-                <div className="certificate__content">
-                  <h4 className="certificate__title">{certificate.title}</h4>
-                  <span className="certificate__id">{certificate.id}</span>
-                </div>
-              </article>
-            );
-          })}
         </section>
       </section>
     </article>
