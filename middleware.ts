@@ -1,14 +1,13 @@
-import createMiddleware from "next-intl/middleware";
-import {locales, localePrefix, pathnames} from './navigation';
+// middleware.ts
+import createMiddleware from 'next-intl/middleware';
+import {locales, localePrefix} from './navigation';
 
 export default createMiddleware({
-  defaultLocale: "es",
-  localePrefix,
   locales,
-  pathnames
+  defaultLocale: 'es',
+  localePrefix
 });
 
 export const config = {
-  // Skip all paths that should not be internationalized
-  matcher: ["/((?!api|_next|.*\\..*).*)"],
+  matcher: ['/((?!api|_next|.*\\..*).*)']
 };
