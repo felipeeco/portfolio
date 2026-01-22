@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.13",
+    "next": "14.2.35",
     "next-intl": "3.26.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
@@ -18,9 +18,12 @@
     "@types/node": "20.19.17",
     "@types/react": "18.3.4",
     "@types/react-dom": "18.3.5",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "eslint-config-next": "14.2.13",
     "typescript": "5.6.3"
+  },
+  "overrides": {
+    "glob": "^10.4.5"
   },
   "engines": {
     "node": "20.x"

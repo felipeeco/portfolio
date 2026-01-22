@@ -66,8 +66,7 @@ export default function Home() {
           <ul className="knowledges__list">
             <li className="knowledges__item">
               <strong className="knowledges__label">Frontend:</strong>
-              HTML5, CSS3, JavaScript, TypeScript, Next.js, Angular, React,
-              LitElement, CELLS
+              HTML5, CSS3, JavaScript, TypeScript, Next.js, React
             </li>
             <li className="knowledges__item">
               <strong className="knowledges__label">Backend:</strong>
