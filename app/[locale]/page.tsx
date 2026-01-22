@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
 import localesJSON from "../../messages/en.json";
-import Image from "next/image";
 
 export async function generateMetadata() {
   const t = await getTranslations({ namespace: "App" });
@@ -20,27 +19,20 @@ interface Experience {
   achievedObjective: string;
 }
 
-interface Certificate {
-  title: string;
-  id: string;
-  link: string;
-  logo: string;
-  certificateDate: string;
-}
-
 export default function Home() {
   const t = useTranslations("App");
+  
+  // Get the length of the experience array from the source JSON
   const experiencesLength: number = localesJSON.App.About.experience.length;
-  let experiences: Array<Experience> = [];
-  for (let i = 0; i < experiencesLength; i++) {
-    experiences.push({
-      title: t(`About.experience.${i}.title`),
-      startDate: t(`About.experience.${i}.startDate`),
-      endDate: t(`About.experience.${i}.endDate`),
-      position: t(`About.experience.${i}.position`),
-      achievedObjective: t(`About.experience.${i}.achievedObjective`),
-    });
-  }
+  
+  // Map the translations into the experiences array
+  const experiences: Array<Experience> = Array.from({ length: experiencesLength }, (_, i) => ({
+    title: t(`About.experience.${i}.title`),
+    startDate: t(`About.experience.${i}.startDate`),
+    endDate: t(`About.experience.${i}.endDate`),
+    position: t(`About.experience.${i}.position`),
+    achievedObjective: t(`About.experience.${i}.achievedObjective`),
+  }));
 
   return (
     <article className="content__page content__about">
@@ -50,11 +42,13 @@ export default function Home() {
           <span className="title__color">{t("About.titleTwo")}</span>
         </h2>
       </header>
+      
       <section className="about__personal-info">
         <article className="personal-info__bio">
           <p className="personal-info__description">{t("About.description")}</p>
         </article>
       </section>
+
       <section className="experience__knowledges">
         <header className="knowledges__subheader">
           <h2 className="experience__subtitle">
@@ -82,6 +76,7 @@ export default function Home() {
           </ul>
         </section>
       </section>
+
       <section className="experience__container">
         <section className="experience__left">
           <header className="experience__subheader">
@@ -95,15 +90,16 @@ export default function Home() {
                 <article className="timelines__timeline" key={index}>
                   <header className="timeline__header">
                     <span className="timelinecompany">{experience.title}</span>
-                    <h3 className="timeline__year">{experience.endDate}</h3>
+                    {/* FIX: Render startDate first, then endDate for logical chronological order */}
                     <h3 className="timeline__year">{experience.startDate}</h3>
+                    <h3 className="timeline__year">{experience.endDate}</h3>
                   </header>
                   <div className="timeline__divider"></div>
                   <div className="timeline__description">
                     <h3 className="timeline__title">{experience.position}</h3>
                     <ul>
-                      {experience.achievedObjective.split("\n").map((line, index) => (
-                        <li key={index}>{line}</li>
+                      {experience.achievedObjective.split("\n").map((line, idx) => (
+                        <li key={idx}>{line}</li>
                       ))}
                     </ul>
                   </div>
