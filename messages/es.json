@@ -4,13 +4,13 @@
       "languages": "Idiomas",
       "name": "Felipe Moreno",
       "position": "Desarrollador Frontend",
-      "keywords": "Desarrollador Frontend, Desarrollador Front-end Desarrollador Front End, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
+      "keywords": "Desarrollador Frontend, Desarrollador Front-end, Desarrollador Front End, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
     },
     "About": {
-      "title": "Sobre Mi",
+      "title": "Sobre mí",
       "description": "Desarrollador Frontend con 5 años de experiencia profesional en entornos bancarios y corporativos, especializado en la creación de aplicaciones web escalables, seguras y de alto rendimiento utilizando React y Next.js. Experiencia trabajando bajo metodologías ágiles (SCRUM), control de versiones con Git y buenas prácticas de integración y despliegue continuo (CI/CD). En el último año, he ampliado mi perfil hacia Full Stack, participando en el desarrollo de APIs y lógica de backend.",
       "titleOne": "Sobre",
-      "titleTwo": "Mi",
+      "titleTwo": "mí",
       "technicalSkillsTitle": "Habilidades técnicas",
       "experienceTitle": "Experiencia",
       "experience": [
@@ -33,7 +33,7 @@
           "startDate": "Mar. 2022",
           "endDate": "Mar. 2023",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando JavaScript, React, Redux y React Router.\nMejoré la experiencia de usuario y la eficiencia operativa."
+          "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando JavaScript, React, Redux y React Router. Mejoré la experiencia de usuario y la eficiencia operativa."
         },
         {
           "title": "Sophos",
@@ -41,7 +41,7 @@
           "startDate": "Abr. 2021",
           "endDate": "Mar. 2022",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Con mi equipo desarrollamos una aplicación web enfocada en otorgar cupo de crédito de forma automática para la empresa Tuya S.A.\nEl frontend fue construido con TypeScript, Angular, HTML5 y CSS3."
+          "achievedObjective": "Con mi equipo desarrollamos una aplicación web enfocada en otorgar cupo de crédito de forma automática para la empresa Tuya S.A. El frontend fue construido con TypeScript, Angular, HTML5 y CSS3."
         }
       ],
       "certificates": [
@@ -64,7 +64,7 @@
           "id": "Credential ID b923a67c-9d2b-4346-abcd-999827fdee5c",
           "link": "https://platzi.com/p/felipeMoreno/curso/2193-dom/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Sept. 2023"
+          "certificateDate": "Sep. 2023"
         },
         {
           "title": "Curso Básico de Web Components con JavaScript",
@@ -133,7 +133,7 @@
           "imageUrl": "/img/portfolio/bbva.png",
           "link": "https://www.bbva.com.co/",
           "category": "Desarrollo de software",
-          "company": "Bbva"
+          "company": "BBVA"
         },
         {
           "imageUrl": "/img/portfolio/tuya.png",

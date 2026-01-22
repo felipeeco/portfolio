@@ -62,7 +62,6 @@ export default function Home() {
           </h2>
         </header>
         <section className="knowledges__container">
-          <h3 className="knowledges__subheader">Technical Skills</h3>
           <ul className="knowledges__list">
             <li className="knowledges__item">
               <strong className="knowledges__label">Frontend:</strong>

@@ -8,7 +8,7 @@
     },
     "About": {
       "title": "About Me",
-      "description": "Frontend Developer with 5 years of professional experience in banking and corporate environments, specialized in creating scalable, secure, and high-performance web applications using React and Next.js. Experienced working under agile methodologies (SCRUM), version control with Git, and best practices for continuous integration and deployment (CI/CD). Over the last year, I have expanded my profile toward Full Stack, participating in the development of APIs and backend logic.",
+      "description": "Frontend Developer with 5 years of professional experience in banking and corporate environments, specialized in creating scalable, secure, and high-performance web applications using React and Next.js. Experienced working under agile methodologies (SCRUM), version control with Git, and best practices for continuous integration and deployment (CI/CD). Over the last year, I have expanded my profile toward Full Stack, participating in the development of APIs and back-end logic.",
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical Skills",
@@ -26,7 +26,7 @@
           "startDate": "Jun. 2023",
           "endDate": "Nov. 2025",
           "position": "Frontend Developer",
-          "achievedObjective": "Developed web components focused on improving client self-management. Implemented unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest. Automated integration and deployment flows with Jenkins, Docker, and GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow). I have certified experience in CELLS and Secure Development, applying security best practices from design to production."
+          "achievedObjective": "Developed web components focused on improving client self-management. Implemented unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest. Automated integration and deployment flows with Jenkins, Docker, and GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow). I hold certifications in CELLS and Secure Development, applying security best practices from design to production."
         },
         {
           "title": "Endava",
@@ -41,7 +41,7 @@
           "startDate": "Apr. 2021",
           "endDate": "Mar. 2022",
           "position": "Frontend Developer",
-          "achievedObjective": "Together with my team, we developed a web application focused on automatically granting credit limits for the company Tuya S.A. The frontend was built with TypeScript, Angular, HTML5, and CSS3."
+          "achievedObjective": "My team and I developed a web application focused on automatically granting credit limits for the company Tuya S.A. The frontend was built with TypeScript, Angular, HTML5, and CSS3."
         }
       ],
       "certificates": [
@@ -133,7 +133,7 @@
           "imageUrl": "/img/portfolio/bbva.png",
           "link": "https://www.bbva.com.co/",
           "category": "Software Development",
-          "company": "Bbva"
+          "company": "BBVA"
         },
         {
           "imageUrl": "/img/portfolio/tuya.png",
