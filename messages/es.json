@@ -8,120 +8,119 @@
     },
     "About": {
       "title": "Sobre Mi",
-      "description": "Desarrollador Frontend con 4 años de experiencia profesional en el sector bancario y corporativo, especializado en la creación de aplicaciones web escalables y seguras con Next.js, Angular, React, LitElement y CELLS. Hábil en metodologías ágiles (SCRUM), control de versiones con Git y prácticas de integración/implementación continua (CI/CD).",
+      "description": "Desarrollador Frontend con 5 años de experiencia profesional en entornos bancarios y corporativos, especializado en la creación de aplicaciones web escalables, seguras y de alto rendimiento utilizando React y Next.js. Experiencia trabajando bajo metodologías ágiles (SCRUM), control de versiones con Git y buenas prácticas de integración y despliegue continuo (CI/CD). En el último año, he ampliado mi perfil hacia Full Stack, participando en el desarrollo de APIs y lógica de backend.",
       "titleOne": "Sobre",
       "titleTwo": "Mi",
       "technicalSkillsTitle": "Habilidades técnicas",
       "experienceTitle": "Experiencia",
       "experience": [
         {
-          "title": "Indra",
-          "startDate": "Junio 2023",
+          "title": "Alfheim",
+          "startDate": "Nov. 2025",
           "endDate": "Presente",
           "position": "Desarrollador Frontend",
-          "achievedObjective": "Desarrollo de componentes web enfocados en mejorar la autogestión del cliente.\nImplementación de pruebas unitarias y E2E con frameworks como Chai, Cucumber, Jasmine y Jest.\nAutomatización de flujos de integración y despliegue con Jenkins, Docker, GitHub Enterprise aplicando metodologías ágiles (SCRUM, Gitflow).\nExperiencia certificada en CELLS y Desarrollo Seguro, aplicando buenas prácticas de seguridad desde el diseño hasta la puesta en producción."
+          "achievedObjective": "Actualmente me desempeño como Desarrollador Frontend, creando aplicaciones web internas de alta complejidad para clientes internos de la organización. Estas aplicaciones soportan procesos de negocio críticos, con un fuerte enfoque en escalabilidad, seguridad y rendimiento."
+        },
+        {
+          "title": "Indra",
+          "startDate": "Jun. 2023",
+          "endDate": "Nov. 2025",
+          "position": "Desarrollador Frontend",
+          "achievedObjective": "Desarrollé componentes web enfocados en mejorar la autogestión del cliente. Implementé pruebas unitarias y E2E con frameworks como Chai, Cucumber, Jasmine y Jest. Automaticé flujos de integración y despliegue con Jenkins, Docker y GitHub Enterprise, aplicando metodologías ágiles (SCRUM, Gitflow). Conté con experiencia certificada en CELLS y Desarrollo Seguro, aplicando buenas prácticas de seguridad desde el diseño hasta la puesta en producción."
         },
         {
           "title": "Endava",
-          "startDate": "Marzo 2022",
-          "endDate": "Marzo 2023",
+          "startDate": "Mar. 2022",
+          "endDate": "Mar. 2023",
           "position": "Desarrollador Frontend",
           "achievedObjective": "Colaboré en el desarrollo de una plataforma de gestión de clientes para CoignCard usando JavaScript, React, Redux y React Router.\nMejoré la experiencia de usuario y la eficiencia operativa."
         },
         {
           "title": "Sophos",
           "titleTwo": "Solutions",
-          "startDate": "Abril 2021",
-          "endDate": "Marzo 2022",
+          "startDate": "Abr. 2021",
+          "endDate": "Mar. 2022",
           "position": "Desarrollador Frontend",
           "achievedObjective": "Con mi equipo desarrollamos una aplicación web enfocada en otorgar cupo de crédito de forma automática para la empresa Tuya S.A.\nEl frontend fue construido con TypeScript, Angular, HTML5 y CSS3."
         }
       ],
-
       "certificates": [
         {
           "title": "Audiocurso de Frameworks y Arquitecturas Frontend: Casos de Estudio",
           "id": "Credential ID cbc2e050-946b-447b-862a-0745139ddbbf",
           "link": "https://platzi.com/p/felipeMoreno/curso/4623-arquitectura-frontend/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Noviembre 2023"
+          "certificateDate": "Nov. 2023"
         },
         {
           "title": "Audiocurso de Meditación",
           "id": "Credential ID 34bf33bf-0c9f-408e-9f36-626ad1587c7a",
           "link": "https://platzi.com/p/felipeMoreno/curso/1885-meditacion/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Noviembre 2023"
+          "certificateDate": "Nov. 2023"
         },
         {
           "title": "Curso de Manipulación del DOM",
           "id": "Credential ID b923a67c-9d2b-4346-abcd-999827fdee5c",
           "link": "https://platzi.com/p/felipeMoreno/curso/2193-dom/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Septiembre 2023"
+          "certificateDate": "Sept. 2023"
         },
         {
           "title": "Curso Básico de Web Components con JavaScript",
           "id": "Credential ID bfcc5411-80b5-4791-b6fa-cadf97b91e47",
           "link": "https://platzi.com/p/felipeMoreno/curso/2199-web-components-javascript/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Agosto 2023"
+          "certificateDate": "Ago. 2023"
         },
         {
           "title": "Maquetación Web Avanzada, Flexbox, CSS, Grid Layout, BEM, Responsive",
           "id": "",
           "link": "",
           "logo": "/img/certificates/udemy-logo.png",
-          "certificateDate": "Agosto 2023"
+          "certificateDate": "Ago. 2023"
         },
         {
           "title": "Curso Básico de JavaScript",
           "id": "Credential ID ffc8c947-2018-4e81-8ea5-30dac304256c",
           "link": "https://platzi.com/p/felipeMoreno/curso/1814-basico-javascript/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Julio 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Curso de ECMAScript: Historia y Versiones de JavaScript",
           "id": "Credential ID daad837e-d46e-4081-ae46-60c5c9c62764",
           "link": "https://platzi.com/p/felipeMoreno/curso/3504-ecmascript-6/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Julio 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Curso de Fundamentos de Node.js",
           "id": "Credential ID a2ba78ea-8aac-40e5-9a7c-17c989436557",
           "link": "https://platzi.com/p/felipeMoreno/curso/1759-fundamentos-node/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Julio 2023"
-        },
-        {
-          "title": "Curso de Fundamentos de Node.js",
-          "id": "Credential ID a2ba78ea-8aac-40e5-9a7c-17c989436557",
-          "link": "https://platzi.com/p/felipeMoreno/curso/1759-fundamentos-node/diploma/detalle/",
-          "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Julio 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Curso de JavaScript Engine (V8) y el Navegador",
           "id": "Credential ID 9eab9f99-6245-4eae-a92a-2f997d153ad1",
           "link": "https://platzi.com/p/felipeMoreno/curso/1798-javascript-navegador/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "Julio 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Microsoft Certified: Azure Fundamentals",
           "id": "Credential ID 1020-0119",
           "link": "https://drive.google.com/file/d/1Yeu2BtkJLRhzsWUSerebfJwIue0DTz4-/view",
           "logo": "/img/certificates/microsoft-logo.png",
-          "certificateDate": "Noviembre 2021"
+          "certificateDate": "Nov. 2021"
         },
         {
           "title": "EF English Live Nivel 13 - Avanzado Completion Test",
           "id": "",
           "link": "",
           "logo": "/img/certificates/ef-logo.png",
-          "certificateDate": "Noviembre 2021"
+          "certificateDate": "Nov. 2021"
         }
       ],
       "titleCertificate": "Certificados"

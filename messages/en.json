@@ -4,165 +4,165 @@
       "languages": "Languages",
       "name": "Felipe Moreno",
       "position": "Frontend Developer",
-      "keywords": "Front-End Developer, Frontend Developer, Front End Developer, Front-End Development, Frontend Development, Front End Development, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
+      "keywords": "Frontend Developer, Front-end Developer, Front End Developer, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
     },
     "About": {
       "title": "About Me",
-      "description": "Frontend Developer with 4 years of professional experience in the banking and corporate sectors, specialized in building scalable and secure web applications using Next.js, Angular, React, LitElement and CELLS. Skilled in agile methodologies (SCRUM), version control with Git, and continuous integration/deployment practices (CI/CD).",
+      "description": "Frontend Developer with 5 years of professional experience in banking and corporate environments, specialized in creating scalable, secure, and high-performance web applications using React and Next.js. Experienced working under agile methodologies (SCRUM), version control with Git, and best practices for continuous integration and deployment (CI/CD). Over the last year, I have expanded my profile toward Full Stack, participating in the development of APIs and backend logic.",
       "titleOne": "About",
       "titleTwo": "Me",
-      "technicalSkillsTitle": "Technical skills",
+      "technicalSkillsTitle": "Technical Skills",
       "experienceTitle": "Experience",
       "experience": [
         {
-          "title": "Indra",
-          "startDate": "June 2023",
+          "title": "Alfheim",
+          "startDate": "Nov. 2025",
           "endDate": "Present",
           "position": "Frontend Developer",
-          "achievedObjective": "Development of web components focused on improving customer self-service.\nImplementation of unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest.\nAutomation of integration and deployment flows with Jenkins, Docker, GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow).\nCELLS and Secure Development certified, applying best practices from design to production."
+          "achievedObjective": "Currently serving as a Frontend Developer, creating highly complex internal web applications for the organization's internal clients. These applications support critical business processes, with a strong focus on scalability, security, and performance."
+        },
+        {
+          "title": "Indra",
+          "startDate": "Jun. 2023",
+          "endDate": "Nov. 2025",
+          "position": "Frontend Developer",
+          "achievedObjective": "Developed web components focused on improving client self-management. Implemented unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest. Automated integration and deployment flows with Jenkins, Docker, and GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow). I have certified experience in CELLS and Secure Development, applying security best practices from design to production."
         },
         {
           "title": "Endava",
-          "startDate": "March 2022",
-          "endDate": "March 2023",
+          "startDate": "Mar. 2022",
+          "endDate": "Mar. 2023",
           "position": "Frontend Developer",
-          "achievedObjective": "Collaborated on the development of a customer management platform for CoignCard, using JavaScript, React, Redux, React Router, improving operational efficiency and optimizing user experience."
+          "achievedObjective": "Collaborated on the development of a customer management platform for CoignCard using JavaScript, React, Redux, and React Router. Improved user experience and operational efficiency."
         },
         {
-          "title": "Sophos Solutions",
-          "startDate": "April 2021",
-          "endDate": "March 2022",
+          "title": "Sophos",
+          "titleTwo": "Solutions",
+          "startDate": "Apr. 2021",
+          "endDate": "Mar. 2022",
           "position": "Frontend Developer",
-          "achievedObjective": "Worked with the team to develop a web application for Tuya S.A., enabling automatic credit approvals. The frontend was built with TypeScript, Angular, HTML5 and CSS3."
+          "achievedObjective": "Together with my team, we developed a web application focused on automatically granting credit limits for the company Tuya S.A. The frontend was built with TypeScript, Angular, HTML5, and CSS3."
         }
       ],
-
       "certificates": [
         {
-          "title": "Frontend Frameworks and Architectures Audio Course: Case Studies",
+          "title": "Audio Course on Frontend Frameworks and Architectures: Case Studies",
           "id": "Credential ID cbc2e050-946b-447b-862a-0745139ddbbf",
           "link": "https://platzi.com/p/felipeMoreno/curso/4623-arquitectura-frontend/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "November 2023"
+          "certificateDate": "Nov. 2023"
         },
         {
           "title": "Meditation Audio Course",
           "id": "Credential ID 34bf33bf-0c9f-408e-9f36-626ad1587c7a",
           "link": "https://platzi.com/p/felipeMoreno/curso/1885-meditacion/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "November 2023"
+          "certificateDate": "Nov. 2023"
         },
         {
           "title": "DOM Manipulation Course",
           "id": "Credential ID b923a67c-9d2b-4346-abcd-999827fdee5c",
           "link": "https://platzi.com/p/felipeMoreno/curso/2193-dom/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "September 2023"
+          "certificateDate": "Sep. 2023"
         },
         {
           "title": "Basic Web Components with JavaScript Course",
           "id": "Credential ID bfcc5411-80b5-4791-b6fa-cadf97b91e47",
           "link": "https://platzi.com/p/felipeMoreno/curso/2199-web-components-javascript/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "August 2023"
+          "certificateDate": "Aug. 2023"
         },
         {
           "title": "Advanced Web Layout, Flexbox, CSS, Grid Layout, BEM, Responsive",
           "id": "",
           "link": "",
           "logo": "/img/certificates/udemy-logo.png",
-          "certificateDate": "August 2023"
+          "certificateDate": "Aug. 2023"
         },
         {
           "title": "Basic JavaScript Course",
           "id": "Credential ID ffc8c947-2018-4e81-8ea5-30dac304256c",
           "link": "https://platzi.com/p/felipeMoreno/curso/1814-basico-javascript/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "July 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
-          "title": "ECMAScript Course: JavaScript History and Versions",
+          "title": "ECMAScript Course: History and Versions of JavaScript",
           "id": "Credential ID daad837e-d46e-4081-ae46-60c5c9c62764",
           "link": "https://platzi.com/p/felipeMoreno/curso/3504-ecmascript-6/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "July 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Node.js Fundamentals Course",
           "id": "Credential ID a2ba78ea-8aac-40e5-9a7c-17c989436557",
           "link": "https://platzi.com/p/felipeMoreno/curso/1759-fundamentos-node/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "July 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
-          "title": "Node.js Fundamentals Course",
-          "id": "Credential ID a2ba78ea-8aac-40e5-9a7c-17c989436557",
-          "link": "https://platzi.com/p/felipeMoreno/curso/1759-fundamentos-node/diploma/detalle/",
-          "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "July 2023"
-        },
-        {
-          "title": "JavaScript Engine (V8) and Browser Course",
+          "title": "JavaScript Engine (V8) and the Browser Course",
           "id": "Credential ID 9eab9f99-6245-4eae-a92a-2f997d153ad1",
           "link": "https://platzi.com/p/felipeMoreno/curso/1798-javascript-navegador/diploma/detalle/",
           "logo": "/img/certificates/platzi-logo.png",
-          "certificateDate": "July 2023"
+          "certificateDate": "Jul. 2023"
         },
         {
           "title": "Microsoft Certified: Azure Fundamentals",
           "id": "Credential ID 1020-0119",
           "link": "https://drive.google.com/file/d/1Yeu2BtkJLRhzsWUSerebfJwIue0DTz4-/view",
           "logo": "/img/certificates/microsoft-logo.png",
-          "certificateDate": "November 2021"
+          "certificateDate": "Nov. 2021"
         },
         {
           "title": "EF English Live Level 13 - Advanced Completion Test",
           "id": "",
           "link": "",
           "logo": "/img/certificates/ef-logo.png",
-          "certificateDate": "November 2021"
+          "certificateDate": "Nov. 2021"
         }
       ],
       "titleCertificate": "Certificates"
     },
     "Portfolio": {
       "title": "Portfolio",
-      "description": "My passion lies in bringing captivating and user-friendly digital experiences to life. As a frontend developer, I focus on crafting interactive and responsive interfaces that blend technical prowess with compelling design. My portfolio reflects my commitment to excellence in web development, showcasing projects where creativity meets functionality to deliver memorable web experiences. From implementing responsive designs to optimizing performance, my goal is to leverage the latest technologies and standards to drive impactful and immersive projects that delight users and effectively solve challenges.",
+      "description": "My passion lies in bringing captivating and user-friendly digital experiences to life. As a frontend developer, my focus is on creating interactive and responsive interfaces that combine technical skills with engaging design. My portfolio reflects my commitment to excellence in web development, highlighting projects where creativity meets functionality to deliver memorable web experiences. From implementing responsive designs to optimizing performance, my goal is to use the latest technologies and standards to drive impactful and immersive projects that delight users and solve challenges effectively.",
       "items": [
         {
           "imageUrl": "/img/portfolio/bbva.png",
           "link": "https://www.bbva.com.co/",
-          "category": "Software development",
+          "category": "Software Development",
           "company": "Bbva"
         },
         {
           "imageUrl": "/img/portfolio/tuya.png",
           "link": "https://www.tuya.com.co/paso-a-paso-simulador-tuya",
-          "category": "Software development",
+          "category": "Software Development",
           "company": "Tuya"
         },
         {
           "imageUrl": "/img/portfolio/urosario.png",
           "link": "https://urosario.edu.co/",
-          "category": "Software development",
+          "category": "Software Development",
           "company": "URosario"
         },
         {
           "imageUrl": "/img/portfolio/coign.png",
           "link": "https://www.coigncard.com/applytospendright/",
-          "category": "Software development",
+          "category": "Software Development",
           "company": "Coign"
         },
         {
           "imageUrl": "/img/portfolio/maestria-uninorte.png",
           "link": "https://univirtual.uninorte.edu.co/p/maestria-en-pedagogia-social",
-          "category": "Web layout",
+          "category": "Web Layout",
           "company": "Uninorte"
         },
         {
           "imageUrl": "/img/portfolio/minsmajobb.png",
           "link": "https://minsmajobb.no/",
-          "category": "Web layout",
+          "category": "Web Layout",
           "company": "Minsmajobb"
         }
       ]
