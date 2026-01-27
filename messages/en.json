@@ -3,7 +3,7 @@
     "Global": {
       "languages": "Languages",
       "name": "Felipe Moreno",
-      "position": "Frontend Developer",
+      "position": "Frontend Developer | Full Stack Next.js",
       "keywords": "Frontend Developer, Front-end Developer, Front End Developer, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
     },
     "About": {
@@ -15,11 +15,11 @@
       "experienceTitle": "Experience",
       "experience": [
         {
-          "title": "Alfheim",
+          "title": "Confidential Company",
           "startDate": "Nov. 2025",
           "endDate": "Present",
-          "position": "Frontend Developer",
-          "achievedObjective": "Currently serving as a Frontend Developer, creating highly complex internal web applications for the organization's internal clients. These applications support critical business processes, with a strong focus on scalability, security, and performance."
+          "position": "Frontend Developer | Full Stack Next.js",
+          "achievedObjective": "Company name omitted due to confidentiality agreements. I currently work as a Frontend Developer, building high-complexity internal web applications for internal clients within the organization that support critical business processes, with a strong focus on scalability, security, and performance, using JavaScript, TypeScript, React, and Next.js, and collaborating closely with cross-functional teams to deliver reliable, maintainable, and high-quality software."
         },
         {
           "title": "Indra",
