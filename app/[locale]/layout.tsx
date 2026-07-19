@@ -2,6 +2,7 @@ import {NextIntlClientProvider} from "next-intl";
 import {getMessages, getLocale, getTranslations} from "next-intl/server";
 import {notFound} from "next/navigation";
 import Aside from "../../components/Aside";
+import "./globals.css";
 
 export const viewport = {
   width: "device-width",
