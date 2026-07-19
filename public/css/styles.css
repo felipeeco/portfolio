@@ -93,6 +93,9 @@ body {
 
 .user-info__image {
     width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
     background-color: var(--main-color);
     border: 3px solid var(--main-color);
     border-radius: 20rem;
@@ -120,10 +123,11 @@ body {
 }
 
 .user-info__job {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 200;
     color: var(--main-color);
-
+    line-height: 1.5;
+    padding: 0 2.5rem;
 }
 
 .user-info__links {
@@ -185,7 +189,6 @@ body {
 .user-info__buttons {
     margin-top: 4rem;
     margin-bottom: 2rem;
-    cursor: pointer;
     font-weight: bold;
 }
 
@@ -420,9 +423,10 @@ body {
 }
 
 .timeline__year {
+    display: block;
     margin: 0;
     line-height: 1.9rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 100;
 }
 
@@ -708,6 +712,58 @@ body {
 .knowledges__container > ul > li:hover {
   background: rgba(4, 180, 224, 0.04);
   border-color: rgba(4, 180, 224, 0.18);
+}
+
+/* Languages and contact details */
+.profile-details {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.profile-details__card {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1.6rem;
+  box-shadow: 0 0 3rem -0.5rem rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.profile-details__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.profile-details__list strong {
+  color: var(--secondary-color);
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-style: normal;
+}
+
+.contact-list span,
+.contact-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  overflow-wrap: anywhere;
+}
+
+.contact-list i {
+  width: 1.8rem;
+  flex: 0 0 1.8rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.contact-list a:hover {
+  color: var(--secondary-color);
 }
 
 /* Smooth transitions */

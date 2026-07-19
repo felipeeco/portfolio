@@ -3,47 +3,95 @@
     "Global": {
       "languages": "Languages",
       "name": "Felipe Moreno",
-      "position": "Frontend Developer | Full Stack Next.js",
-      "keywords": "Frontend Developer, Front-end Developer, Front End Developer, JavaScript, TypeScript, React, Angular, LitElement, Web Components, Node.js, Next.js, Redux, Unit testing (Jest, React testing, Jasmine, angular testing), Git, SCRUM, BEM, CSS, HTML5, SASS, Material, Bootstrap, MongoDB, Mongoose, Express.js, Firebase, Figma, Jira"
+      "position": "Frontend Developer | Next.js Full Stack Developer | React | JavaScript & TypeScript | Python & Django",
+      "keywords": "Frontend Developer, Next.js Full Stack Developer, JavaScript, TypeScript, React, Next.js, Redux, React Router, Python, Django, Node.js, REST APIs, Prisma ORM, PostgreSQL, HTML5, CSS3, Angular, Web Components, CELLS, Jest, Jasmine, Chai, Cucumber, Git, GitHub Enterprise, Jenkins, Docker, Gitflow, Scrum, CI/CD, Claude Code, OpenAI Codex",
+      "profilePhotoAlt": "Portrait of Felipe Moreno",
+      "linkedinLabel": "Felipe Moreno on LinkedIn",
+      "githubLabel": "Felipe Moreno on GitHub"
     },
     "About": {
       "title": "About Me",
-      "description": "Frontend Developer with 5 years of professional experience in banking and corporate environments, specialized in creating scalable, secure, and high-performance web applications using React and Next.js. Experienced working under agile methodologies (SCRUM), version control with Git, and best practices for continuous integration and deployment (CI/CD). Over the last year, I have expanded my profile toward Full Stack, participating in the development of APIs and back-end logic.",
+      "description": "Frontend Developer with more than 5 years of professional experience in banking and corporate environments, specializing in JavaScript, React, Next.js, and TypeScript. In my current role, I primarily perform frontend responsibilities and also contribute to Full Stack tasks with Python and Django, including views, services, configurations, and business logic. Additional experience with Node.js, REST APIs, Prisma ORM, PostgreSQL, Git, Docker, and CI/CD.",
       "titleOne": "About",
       "titleTwo": "Me",
       "technicalSkillsTitle": "Technical Skills",
+      "technicalSkills": [
+        {
+          "label": "Frontend",
+          "value": "JavaScript, TypeScript, HTML5, CSS3, Next.js, React, Redux, React Router"
+        },
+        {
+          "label": "Backend & data",
+          "value": "Python, Django, Next.js Full Stack, Node.js, REST APIs, Prisma ORM, PostgreSQL"
+        },
+        {
+          "label": "Tools & methodologies",
+          "value": "Git, GitHub Enterprise, Jenkins, Docker, Gitflow, Scrum, CI/CD, Claude Code, OpenAI Codex"
+        }
+      ],
       "experienceTitle": "Experience",
       "experience": [
         {
           "title": "Confidential Company",
-          "startDate": "Nov. 2025",
+          "startDate": "November 2025",
           "endDate": "Present",
-          "position": "Frontend Developer | Full Stack Next.js",
-          "achievedObjective": "Company name omitted due to confidentiality agreements. I currently work as a Frontend Developer, building high-complexity internal web applications for internal clients within the organization that support critical business processes, with a strong focus on scalability, security, and performance, using JavaScript, TypeScript, React, and Next.js, and collaborating closely with cross-functional teams to deliver reliable, maintainable, and high-quality software."
+          "position": "Frontend Developer | Next.js Full Stack",
+          "achievements": [
+            "Develop and maintain highly complex internal web applications with Next.js, React, JavaScript, and TypeScript for critical business processes.",
+            "Build reusable components, views, and user flows with a focus on scalability, security, performance, and long-term maintainability.",
+            "Contribute occasionally to backend development with Python and Django, implementing and maintaining views, services, configurations, and business logic.",
+            "Integrate the frontend with internal services and REST APIs, collaborating with cross-functional teams through code reviews, Git, and CI/CD processes."
+          ]
         },
         {
           "title": "Indra",
-          "startDate": "Jun. 2023",
-          "endDate": "Nov. 2025",
+          "startDate": "June 2023",
+          "endDate": "November 2025",
           "position": "Frontend Developer",
-          "achievedObjective": "Developed web components focused on improving client self-management. Implemented unit and E2E tests with frameworks such as Chai, Cucumber, Jasmine, and Jest. Automated integration and deployment flows with Jenkins, Docker, and GitHub Enterprise, applying agile methodologies (SCRUM, Gitflow). I hold certifications in CELLS and Secure Development, applying security best practices from design to production."
+          "achievements": [
+            "Developed and maintained frontend features for digital banking products using JavaScript, Web Components, and CELLS.",
+            "Implemented unit and E2E tests with Jest, Jasmine, Chai, and Cucumber.",
+            "Automated integration and deployment with Jenkins, Docker, and GitHub Enterprise, applying Scrum and Gitflow.",
+            "Earned CELLS and Secure Development certifications, applying security best practices throughout the development lifecycle."
+          ]
         },
         {
           "title": "Endava",
-          "startDate": "Mar. 2022",
-          "endDate": "Mar. 2023",
+          "startDate": "March 2022",
+          "endDate": "March 2023",
           "position": "Frontend Developer",
-          "achievedObjective": "Collaborated on the development of a customer management platform for CoignCard using JavaScript, React, Redux, and React Router. Improved user experience and operational efficiency."
+          "achievements": [
+            "Developed a customer management platform for CoignCard with JavaScript, React, Redux, and React Router, focused on a clear and maintainable user experience."
+          ]
         },
         {
-          "title": "Sophos",
-          "titleTwo": "Solutions",
-          "startDate": "Apr. 2021",
-          "endDate": "Mar. 2022",
+          "title": "Sophos Solutions",
+          "startDate": "April 2021",
+          "endDate": "March 2022",
           "position": "Frontend Developer",
-          "achievedObjective": "My team and I developed a web application focused on automatically granting credit limits for the company Tuya S.A. The frontend was built with TypeScript, Angular, HTML5, and CSS3."
+          "achievements": [
+            "Developed a web application for Tuya S.A. to automatically assign credit limits, using TypeScript, Angular, HTML5, and CSS3."
+          ]
         }
       ],
+      "languagesTitle": "Languages",
+      "languages": [
+        {
+          "name": "Spanish",
+          "level": "Native"
+        },
+        {
+          "name": "English",
+          "level": "Professional"
+        }
+      ],
+      "contactTitle": "Contact",
+      "contact": {
+        "location": "Bogotá, Colombia",
+        "phone": "+57 300 711 8860",
+        "email": "felipemoreno.co@gmail.com",
+        "linkedin": "linkedin.com/in/luisfelipemoreno"
+      },
       "certificates": [
         {
           "title": "Audio Course on Frontend Frameworks and Architectures: Case Studies",

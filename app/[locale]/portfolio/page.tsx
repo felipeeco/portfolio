@@ -1,6 +1,4 @@
-import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
-import localesJSON from "../../../messages/en.json";
+import {getTranslations} from "next-intl/server";
 import Image from "next/image";
 
 export async function generateMetadata() {
@@ -21,18 +19,9 @@ interface Item {
   company: string;
 }
 
-export default function Home() {
-  const t = useTranslations("App");
-  const itemsLength: number = localesJSON.App.Portfolio.items.length;
-  let items: Array<Item> = [];
-  for (let i = 0; i < itemsLength; i++) {
-    items.push({
-      imageUrl: t(`Portfolio.items.${i}.imageUrl`),
-      link: t(`Portfolio.items.${i}.link`),
-      category: t(`Portfolio.items.${i}.category`),
-      company: t(`Portfolio.items.${i}.company`),
-    });
-  }
+export default async function PortfolioPage() {
+  const t = await getTranslations({namespace: "App"});
+  const items = t.raw("Portfolio.items") as Item[];
 
   return (
     <>
@@ -42,11 +31,14 @@ export default function Home() {
         </header>
 
         <section className="portfolio__gallery">
-          {items.map((item: Item, index: number) => {
-            return (
-              <>
-                <figure className="gallery__item" key={index}>
-                  <a href={item.link} className="gallery__link" target="_blank">
+          {items.map((item) => (
+                <figure className="gallery__item" key={item.company}>
+                  <a
+                    href={item.link}
+                    className="gallery__link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <div className="gallery__container-image">
                       <Image
                         className="gallery__image"
@@ -59,12 +51,13 @@ export default function Home() {
                     <figcaption className="gallery__title">
                       {item.company} | {item.category}
                     </figcaption>
-                    <i className="gallery__icon fa-solid fa-magnifying-glass"></i>
+                    <i
+                      className="gallery__icon fa-solid fa-magnifying-glass"
+                      aria-hidden="true"
+                    ></i>
                   </a>
                 </figure>
-              </>
-            );
-          })}
+          ))}
         </section>
       </section>
     </>

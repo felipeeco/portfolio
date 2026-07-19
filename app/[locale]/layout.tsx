@@ -2,7 +2,6 @@ import {NextIntlClientProvider} from "next-intl";
 import {getMessages, getLocale, getTranslations} from "next-intl/server";
 import {notFound} from "next/navigation";
 import Aside from "../../components/Aside";
-import "./globals.css";
 
 export const viewport = {
   width: "device-width",
@@ -40,6 +39,9 @@ export default async function RootLayout({
             <Aside
               name={t("Global.name")}
               position={t("Global.position")}
+              profilePhotoAlt={t("Global.profilePhotoAlt")}
+              linkedinLabel={t("Global.linkedinLabel")}
+              githubLabel={t("Global.githubLabel")}
               aboutTitle={t("About.title")}
               portfolioTitle={t("Portfolio.title")}
               languages={t("Global.languages")}

@@ -1,14 +1,17 @@
-import { getTranslations } from "next-intl/server";
-import { useTranslations } from "next-intl";
-import localesJSON from "../../messages/en.json";
+import {getTranslations} from "next-intl/server";
 
 export async function generateMetadata() {
-  const t = await getTranslations({ namespace: "App" });
+  const t = await getTranslations({namespace: "App"});
 
   return {
-    title: `${t("About.title")} | ${t("Global.name")} ${t("Global.position")}`,
+    title: `${t("About.title")} | ${t("Global.name")} — ${t("Global.position")}`,
     description: t("About.description"),
   };
+}
+
+interface TechnicalSkill {
+  label: string;
+  value: string;
 }
 
 interface Experience {
@@ -16,37 +19,39 @@ interface Experience {
   startDate: string;
   endDate: string;
   position: string;
-  achievedObjective: string;
+  achievements: string[];
 }
 
-export default function Home() {
-  const t = useTranslations("App");
-  
-  // Get the length of the experience array from the source JSON
-  const experiencesLength: number = localesJSON.App.About.experience.length;
-  
-  // Map the translations into the experiences array
-  const experiences: Array<Experience> = Array.from({ length: experiencesLength }, (_, i) => ({
-    title: t(`About.experience.${i}.title`),
-    startDate: t(`About.experience.${i}.startDate`),
-    endDate: t(`About.experience.${i}.endDate`),
-    position: t(`About.experience.${i}.position`),
-    achievedObjective: t(`About.experience.${i}.achievedObjective`),
-  }));
+interface Language {
+  name: string;
+  level: string;
+}
+
+interface Contact {
+  location: string;
+  phone: string;
+  email: string;
+  linkedin: string;
+}
+
+export default async function Home() {
+  const t = await getTranslations({namespace: "App"});
+  const technicalSkills = t.raw("About.technicalSkills") as TechnicalSkill[];
+  const experiences = t.raw("About.experience") as Experience[];
+  const languages = t.raw("About.languages") as Language[];
+  const contact = t.raw("About.contact") as Contact;
 
   return (
     <article className="content__page content__about">
       <header className="about__header">
         <h2 className="about__title">
-          {t("About.titleOne")}{" "}
+          {t("About.titleOne")} {" "}
           <span className="title__color">{t("About.titleTwo")}</span>
         </h2>
       </header>
-      
+
       <section className="about__personal-info">
-        <article className="personal-info__bio">
-          <p className="personal-info__description">{t("About.description")}</p>
-        </article>
+        <p className="personal-info__description">{t("About.description")}</p>
       </section>
 
       <section className="experience__knowledges">
@@ -55,59 +60,87 @@ export default function Home() {
             {t("About.technicalSkillsTitle")}
           </h2>
         </header>
-        <section className="knowledges__container">
+        <div className="knowledges__container">
           <ul className="knowledges__list">
-            <li className="knowledges__item">
-              <strong className="knowledges__label">Frontend:</strong>
-              HTML5, CSS3, JavaScript, TypeScript, Next.js, React
-            </li>
-            <li className="knowledges__item">
-              <strong className="knowledges__label">Backend:</strong>
-              Node.js, Prisma ORM, PostgreSQL, API REST
-            </li>
-            <li className="knowledges__item">
-              <strong className="knowledges__label">Testing:</strong>
-              Jest, Jasmine, Chai, Cucumber
-            </li>
-            <li className="knowledges__item">
-              <strong className="knowledges__label">CI/CD &amp; Tools:</strong>
-              Jenkins, Docker, GitHub, Gitflow
-            </li>
+            {technicalSkills.map((skill) => (
+              <li className="knowledges__item" key={skill.label}>
+                <strong className="knowledges__label">{skill.label}:</strong>
+                {skill.value}
+              </li>
+            ))}
           </ul>
-        </section>
+        </div>
       </section>
 
       <section className="experience__container">
-        <section className="experience__left">
-          <header className="experience__subheader">
-            <h2 className="experience__subtitle">
-              {t("About.experienceTitle")}
-            </h2>
-          </header>
-          <div className="experience__timelines">
-            {experiences.map((experience: Experience, index: number) => {
-              return (
-                <article className="timelines__timeline" key={index}>
-                  <header className="timeline__header">
-                    <span className="timelinecompany">{experience.title}</span>
-                    {/* FIX: Render startDate first, then endDate for logical chronological order */}
-                    <h3 className="timeline__year">{experience.startDate}</h3>
-                    <h3 className="timeline__year">{experience.endDate}</h3>
-                  </header>
-                  <div className="timeline__divider"></div>
-                  <div className="timeline__description">
-                    <h3 className="timeline__title">{experience.position}</h3>
-                    <ul>
-                      {experience.achievedObjective.split("\n").map((line, idx) => (
-                        <li key={idx}>{line}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
-        </section>
+        <header className="experience__subheader">
+          <h2 className="experience__subtitle">
+            {t("About.experienceTitle")}
+          </h2>
+        </header>
+        <div className="experience__timelines">
+          {experiences.map((experience, index) => (
+            <article className="timelines__timeline" key={experience.title}>
+              <header className="timeline__header">
+                <span className="timelinecompany">{experience.title}</span>
+                <span className="timeline__year">{experience.startDate}</span>
+                <span className="timeline__year">{experience.endDate}</span>
+              </header>
+              <div
+                className={`timeline__divider ${
+                  index === experiences.length - 1 ? "timeline__divider--last" : ""
+                }`}
+              />
+              <div className="timeline__description">
+                <h3 className="timeline__title">{experience.position}</h3>
+                <ul>
+                  {experience.achievements.map((achievement) => (
+                    <li key={achievement}>{achievement}</li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="profile-details">
+        <article className="profile-details__card">
+          <h2 className="experience__subtitle">{t("About.languagesTitle")}</h2>
+          <ul className="profile-details__list">
+            {languages.map((language) => (
+              <li key={language.name}>
+                <strong>{language.name}:</strong> {language.level}
+              </li>
+            ))}
+          </ul>
+        </article>
+
+        <article className="profile-details__card">
+          <h2 className="experience__subtitle">{t("About.contactTitle")}</h2>
+          <address className="contact-list">
+            <span>
+              <i className="fa-solid fa-location-dot" aria-hidden="true" />
+              {contact.location}
+            </span>
+            <a href={`tel:${contact.phone.replace(/\s/g, "")}`}>
+              <i className="fa-solid fa-phone" aria-hidden="true" />
+              {contact.phone}
+            </a>
+            <a href={`mailto:${contact.email}`}>
+              <i className="fa-solid fa-envelope" aria-hidden="true" />
+              {contact.email}
+            </a>
+            <a
+              href={`https://${contact.linkedin}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-linkedin" aria-hidden="true" />
+              {contact.linkedin}
+            </a>
+          </address>
+        </article>
       </section>
     </article>
   );

@@ -1,11 +1,12 @@
 // middleware.ts
 import createMiddleware from 'next-intl/middleware';
-import {locales, localePrefix} from './navigation';
+import {locales, localePrefix, pathnames} from './navigation';
 
 export default createMiddleware({
   locales,
   defaultLocale: 'es',
-  localePrefix
+  localePrefix,
+  pathnames
 });
 
 export const config = {

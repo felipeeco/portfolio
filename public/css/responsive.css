@@ -17,6 +17,11 @@
 }
 
 @media (max-width: 1160px) {
+
+    html {
+        font-size: 55%;
+    }
+
     .certificate__display {
         width: 100%;
     }
@@ -45,18 +50,7 @@
     .menu-toggle__icon {
         color: var(--main-color);
         display: block;
-        position: relative;
         transition: all 300ms ease-out;
-    }
-
-    .fa-xmark {
-        opacity: 0;
-        top: -10px;
-    }
-
-    .fa-bars {
-        top: 13px;
-        opacity: 1;
     }
 
     .layout__aside {
@@ -148,7 +142,7 @@
     }
 
     .user-info__job {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -201,6 +195,10 @@
     .certificate__logo {
         width: 10rem;
     }
+
+    .profile-details {
+        grid-template-columns: 1fr;
+    }
 }
 
 
@@ -235,4 +233,3 @@
         flex-direction: column;
     }
 }
-
