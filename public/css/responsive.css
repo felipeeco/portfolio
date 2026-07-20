@@ -184,8 +184,8 @@
         flex-direction: column;
     }
 
-    .gallery__item {
-        flex-basis: 50%;
+    .portfolio__gallery {
+        gap: 1.8rem;
     }
 
     .timeline__description {
@@ -208,8 +208,8 @@
         padding-left: 3rem;
     }
 
-    .gallery__item {
-        flex-basis: 100%;
+    .portfolio__gallery {
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .timeline__header {
@@ -219,13 +219,8 @@
     .gallery__link {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
-    .gallery__title {
-        padding-top: 0;
-    }
 }
 
 @media (max-width: 320px) {

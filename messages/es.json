@@ -176,6 +176,7 @@
     "Portfolio": {
       "title": "Portafolio",
       "subtitle": "Proyectos de fin de semana, solo por diversión, sin uso comercial.",
+      "viewProject": "Ver proyecto",
       "description": "Mi pasión radica en dar vida a experiencias digitales cautivadoras y amigables para el usuario. Como desarrollador frontend, mi enfoque se centra en la creación de interfaces interactivas y receptivas que combinen habilidades técnicas con un diseño atractivo. Mi cartera refleja mi compromiso con la excelencia en el desarrollo web, destacando proyectos donde la creatividad se une a la funcionalidad para ofrecer experiencias web memorables. Desde la implementación de diseños responsivos hasta la optimización del rendimiento, mi objetivo es utilizar las últimas tecnologías y estándares para impulsar proyectos impactantes y envolventes que deleiten a los usuarios y resuelvan desafíos de manera efectiva.",
       "items": [
         {

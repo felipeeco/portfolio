@@ -176,6 +176,7 @@
     "Portfolio": {
       "title": "Portfolio",
       "subtitle": "Weekend projects for fun only (no commercial use).",
+      "viewProject": "View project",
       "description": "My passion lies in bringing captivating and user-friendly digital experiences to life. As a frontend developer, my focus is on creating interactive and responsive interfaces that combine technical skills with engaging design. My portfolio reflects my commitment to excellence in web development, highlighting projects where creativity meets functionality to deliver memorable web experiences. From implementing responsive designs to optimizing performance, my goal is to use the latest technologies and standards to drive impactful and immersive projects that delight users and solve challenges effectively.",
       "items": [
         {
