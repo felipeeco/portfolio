@@ -27,10 +27,10 @@ export default async function PortfolioPage() {
     <>
       <section className="content__page content__portfolio">
         <header className="portfolio__header">
-          <h1 className="portfolio__title">{t("Portfolio.title")}</h1>
-          <p>
-            <strong>{t("Portfolio.subtitle")}</strong>
-          </p>
+          <h2 className="portfolio__title">
+            {t("Portfolio.title")}<br />
+            <span className="title__color">{t("Portfolio.subtitle")}</span>
+          </h2>
         </header>
 
         <section className="portfolio__gallery">
@@ -52,7 +52,7 @@ export default async function PortfolioPage() {
                       />
                     </div>
                     <figcaption className="gallery__title">
-                      {item.company} | {item.category}
+                      {item.company}
                     </figcaption>
                     <i
                       className="gallery__icon fa-solid fa-magnifying-glass"

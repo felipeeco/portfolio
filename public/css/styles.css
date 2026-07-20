@@ -313,8 +313,7 @@ body {
 }
 
 .about__title::after,
-.experience__title::after,
-.portfolio__title::after {
+.experience__title::after {
     background-image: -webkit-repeating-radial-gradient(center center, var(--secondary-color), var(--secondary-color) 1px, transparent 0px, transparent 100px);
     background-size: 6px 6px;
     content: "";
@@ -325,8 +324,16 @@ body {
     width: 50px;
 }
 
+.portfolio__title::after {
+    display: none;
+}
+
 .title__color {
     color: var(--secondary-color);
+}
+
+.portfolio__title .title__color {
+    font-size: 1.6rem;
 }
 
 /* personal information */
