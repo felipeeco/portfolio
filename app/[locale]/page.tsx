@@ -1,11 +1,15 @@
 import {getTranslations} from "next-intl/server";
 
-export async function generateMetadata() {
-  const t = await getTranslations({namespace: "App"});
+export async function generateMetadata({
+  params,
+}: {
+  params: {locale: string};
+}) {
+  const t = await getTranslations({locale: params.locale, namespace: "App"});
 
   return {
-    title: `${t("About.title")} | ${t("Global.name")} — ${t("Global.position")}`,
-    description: t("About.description"),
+    title: `${t("Global.name")} | ${t("Global.shortPosition")}`,
+    description: t("Global.seoDescription"),
   };
 }
 

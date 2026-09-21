@@ -1,14 +1,26 @@
 import {getTranslations} from "next-intl/server";
 import Image from "next/image";
+import {localizedUrl} from "@/lib/site";
 
-export async function generateMetadata() {
-  const t = await getTranslations({ namespace: "App" });
+export async function generateMetadata({
+  params,
+}: {
+  params: {locale: string};
+}) {
+  const t = await getTranslations({locale: params.locale, namespace: "App"});
+  const localizedPath = params.locale === "en" ? "/portfolio" : "/portafolio";
 
   return {
-    title: `${t("Portfolio.title")} | ${t("Global.name")} ${t(
-      "Global.position"
-    )}`,
-    description: t("Portfolio.description"),
+    title: `${t("Portfolio.title")} | ${t("Global.name")}`,
+    description: t("Portfolio.seoDescription"),
+    alternates: {
+      canonical: localizedUrl(params.locale, localizedPath),
+      languages: {
+        "es-CO": localizedUrl("es", "/portafolio"),
+        "en-US": localizedUrl("en", "/portfolio"),
+        "x-default": localizedUrl("es", "/portafolio"),
+      },
+    },
   };
 }
 

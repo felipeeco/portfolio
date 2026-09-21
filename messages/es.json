@@ -4,14 +4,17 @@
       "languages": "Idiomas",
       "name": "Felipe Moreno",
       "position": "Desarrollador Frontend Senior | React, Next.js y TypeScript | Full Stack con Python, Django y Pandas",
-      "keywords": "Desarrollador Frontend, Desarrollador Full Stack Next.js, JavaScript, TypeScript, React, Next.js, Redux, React Router, Python, Django, Node.js, APIs REST, Prisma ORM, PostgreSQL, HTML5, CSS3, Angular, Web Components, CELLS, Jest, Jasmine, Chai, Cucumber, Git, GitHub Enterprise, Jenkins, Docker, Gitflow, Scrum, CI/CD, Claude Code, OpenAI Codex",
+      "shortPosition": "Desarrollador Frontend Senior",
+      "seoDescription": "Felipe Moreno es Desarrollador Frontend Senior en Bogotá, Colombia, con más de 5 años de experiencia en React, Next.js y TypeScript, y experiencia Full Stack con Python y Django.",
+      "keywords": "Felipe Moreno, Desarrollador Frontend Senior, Senior Frontend Developer Colombia, Desarrollador React Bogotá, Desarrollador Next.js, Desarrollador TypeScript, Ingeniero Frontend, Desarrollo web frontend, Arquitectura frontend, Aplicaciones web escalables, Desarrollador Full Stack Python Django, React, Next.js, TypeScript, JavaScript, Python, Django, APIs REST, PostgreSQL, banca digital, CI/CD",
+      "expertise": "desarrollo frontend, React, Next.js, TypeScript, JavaScript, arquitectura frontend, aplicaciones web escalables, Python, Django, APIs REST, PostgreSQL, banca digital, pruebas de software, CI/CD",
       "profilePhotoAlt": "Retrato de Felipe Moreno",
       "linkedinLabel": "Felipe Moreno en LinkedIn",
       "githubLabel": "Felipe Moreno en GitHub"
     },
     "About": {
       "title": "Sobre mí",
-      "description": "Desarrollador Frontend con más de 5 años de experiencia profesional en entornos bancarios y corporativos, especializado en JavaScript, React, Next.js y TypeScript. En mi trabajo actual desempeño principalmente funciones de frontend y también participo en tareas Full Stack con Python y Django, incluyendo vistas, servicios, configuraciones y lógica de negocio. Experiencia adicional con Node.js, APIs REST, Prisma ORM, PostgreSQL, Git, Docker y CI/CD.",
+      "description": "Soy Desarrollador Frontend Senior en Bogotá, Colombia, con más de 5 años de experiencia profesional creando aplicaciones web para entornos bancarios y corporativos. Me especializo en JavaScript, React, Next.js y TypeScript. En mi cargo actual lidero responsabilidades de frontend y también contribuyo al desarrollo Full Stack con Python y Django, trabajando en vistas, servicios, configuraciones, lógica de negocio e integración de APIs REST. También tengo experiencia con Node.js, Prisma ORM, PostgreSQL, Git, Docker y CI/CD.",
       "titleOne": "Sobre",
       "titleTwo": "mí",
       "technicalSkillsTitle": "Habilidades técnicas",
@@ -178,6 +181,7 @@
       "title": "Portafolio",
       "subtitle": "Proyectos de fin de semana, solo por diversión, sin uso comercial.",
       "viewProject": "Ver proyecto",
+      "seoDescription": "Portafolio de Felipe Moreno, Desarrollador Frontend Senior especializado en React, Next.js y TypeScript. Proyectos web con foco en usabilidad, rendimiento y código mantenible.",
       "description": "Mi pasión radica en dar vida a experiencias digitales cautivadoras y amigables para el usuario. Como desarrollador frontend, mi enfoque se centra en la creación de interfaces interactivas y receptivas que combinen habilidades técnicas con un diseño atractivo. Mi cartera refleja mi compromiso con la excelencia en el desarrollo web, destacando proyectos donde la creatividad se une a la funcionalidad para ofrecer experiencias web memorables. Desde la implementación de diseños responsivos hasta la optimización del rendimiento, mi objetivo es utilizar las últimas tecnologías y estándares para impulsar proyectos impactantes y envolventes que deleiten a los usuarios y resuelvan desafíos de manera efectiva.",
       "items": [
         {
